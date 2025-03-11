@@ -2,21 +2,34 @@ package it.uniroma2.dicii.bd.Controller;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.Domain.Credentials;
-import it.uniroma2.dicii.bd.View.LoginView;
-import it.uniroma2.dicii.bd.View.MostraAzioniGenerali;
-
 
 public class ApplicationController
 {
+    Credentials cred;
+
+
     public void start() throws DAOException {
-       int choice = MostraAzioniGenerali.show_menu();
-       switch(choice)
-       {
-           case 1 -> LoginController.start();
-       }
+        LoginController loginController = new LoginController();
+        loginController.start();
+        cred = loginController.getCredentials();
 
+         if(cred.getRuolo()==null)
+        {
+            throw new RuntimeException("Errore credenziali");
+        }
+         else
+         {
+             System.out.println(" ");
+             System.out.println("Accesso riuscito. Benvenuto '"+cred.getNome()+"' "+cred.getCognome()+"'.");
+             System.out.println("Privilegio: " + cred.getRuolo());
+             System.out.println(" ");
 
+         }
 
-
+        switch(cred.getRuolo())
+        {
+            case Amministratore -> new AmministratoreController().start();
+            case Bibliotecario ->  new BibliotecarioController().start();
+        }
     }
 }

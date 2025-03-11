@@ -7,8 +7,9 @@ import it.uniroma2.dicii.bd.View.LoginView;
 
 public class LoginController
 {
+    static Credentials cred;
+
     public static void start() throws DAOException {
-        Credentials cred;
         cred = LoginView.authenticate();
 
         cred = new LoginProcedureDAO().execute(cred.getIdentificativo(),cred.getPassword());
@@ -16,11 +17,9 @@ public class LoginController
 
 
 
-
-
-
-
-
-
+    }
+    public Credentials getCredentials()
+    {
+        return cred;
     }
 }

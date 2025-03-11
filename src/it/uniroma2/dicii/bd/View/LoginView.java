@@ -13,9 +13,6 @@ public class LoginView
         int identificativo = tastiera.nextInt();
         System.out.println("Inserisci password: ");
         String password = tastiera.next();
-        return new Credentials(identificativo, password, null);
-
-
+        return new Credentials(identificativo, null,null, password, null);
     }
-
 }
