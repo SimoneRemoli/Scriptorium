@@ -2,7 +2,7 @@ package it.uniroma2.dicii.bd.Model.Domain;
 
 public enum Ruolo
 {
-    Amministratore(1),
+    Admin(1),
     Bibliotecario(2);
 
     private final int id;

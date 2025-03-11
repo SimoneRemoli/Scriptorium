@@ -1,6 +1,6 @@
 package it.uniroma2.dicii.bd.Controller;
 
-public class AmministratoreController {
+public class AdminController {
 
     public void start()
     {

@@ -20,7 +20,7 @@ public class ApplicationController
          else
          {
              System.out.println(" ");
-             System.out.println("Accesso riuscito. Benvenuto '"+cred.getNome()+"' "+cred.getCognome()+"'.");
+             System.out.println("Accesso riuscito. Benvenuto '"+cred.getNome()+" "+cred.getCognome()+"'.");
              System.out.println("Privilegio: " + cred.getRuolo());
              System.out.println(" ");
 
@@ -28,7 +28,7 @@ public class ApplicationController
 
         switch(cred.getRuolo())
         {
-            case Amministratore -> new AmministratoreController().start();
+            case Admin -> new AdminController().start();
             case Bibliotecario ->  new BibliotecarioController().start();
         }
     }
