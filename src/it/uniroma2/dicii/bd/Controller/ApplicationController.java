@@ -28,8 +28,8 @@ public class ApplicationController
 
         switch(cred.getRuolo())
         {
-            case Admin -> new AdminController().start();
-            case Bibliotecario ->  new BibliotecarioController().start();
+            case ADMIN -> new AdminController().start();
+            case BIBLIOTECARIO ->  new BibliotecarioController().start();
         }
     }
 }
