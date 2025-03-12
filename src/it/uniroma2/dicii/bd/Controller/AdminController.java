@@ -35,7 +35,7 @@ public class AdminController {
             switch(choice)
             {
                 case 1 -> new Admin().aggiungi_personale();
-                case 2 -> elimina_amministratore();
+                case 2 -> new Admin().elimina_personale();
                 case 3 -> aggiungi_bibliotecario();
                 case 4 -> elimina_bibliotecario();
                 case 5 -> controlla_validità_libri();

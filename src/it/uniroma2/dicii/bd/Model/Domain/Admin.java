@@ -2,6 +2,7 @@ package it.uniroma2.dicii.bd.Model.Domain;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.AggiungiAdminDAO;
+import it.uniroma2.dicii.bd.Model.DAO.EliminaAdminDAO;
 
 import java.util.Scanner;
 
@@ -29,7 +30,22 @@ public class Admin extends Personale
     }
 
     @Override
-    public void elimina_personale() {
+    public void elimina_personale()
+    {
+        String nome="", cognome="",password="";
+        Scanner tastiera = new Scanner(System.in);
+        System.out.print("\t Inserisci il nome dell'Admin da eliminare: ");
+        nome = tastiera.next();
+        System.out.print("\t Inserisci il cognome dell'Admin da eliminare: ");
+        cognome = tastiera.next();
+        try
+        {
+            new EliminaAdminDAO().Execute(nome, cognome, password, Ruolo.ADMIN);
+
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
 
     }
 }
