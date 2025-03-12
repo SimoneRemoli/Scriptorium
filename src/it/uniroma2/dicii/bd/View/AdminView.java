@@ -1,0 +1,24 @@
+package it.uniroma2.dicii.bd.View;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class AdminView
+{
+    public static int show_menu() throws IOException
+    {
+        Scanner tastiera = new Scanner(System.in);
+        System.out.println("\t In qualità di admin hai diritto ad effettuare le seguenti operazioni:");
+        System.out.println("\t 1. Aggiungi un amministratore nel circuito.");
+        System.out.println("\t 2. Elimina  un amministratore dal circuito.");
+        System.out.println("\t 3. Aggiungi  un bibliotecario nel circuito.");
+        System.out.println("\t 4. Elimina   un bibliotecario dal circuito.");
+        System.out.println("\t 5. Controlla validità libri: un libro che non è stato" +
+                " prestato nei passati 10 anni viene dismesso dalla " +
+                "biblioteca.");
+        System.out.println("\t 6. Esci.");
+        System.out.println("> > ");
+        int scelta = tastiera.nextInt();
+        return scelta;
+    }
+}
