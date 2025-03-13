@@ -17,7 +17,7 @@ public class VisualizzaPersonaleDAO
             accesso = "Bibliotecario";
         if(r.toString().equals("ADMIN"))
             accesso = "Amministratore";
-        System.out.println("Privilegio = "+accesso);
+       // System.out.println("Privilegio = "+accesso);
         return accesso;
     }
     public void Execute(Object... params) throws DAOException
@@ -32,7 +32,10 @@ public class VisualizzaPersonaleDAO
 
             while(rs.next())
             {
-                System.out.println("Nome: "+rs.getString(1)+" Cognome: "+rs.getString(2)+" Codice: "+rs.getInt(3));
+                System.out.println("Nome: "+rs.getString(1)+
+                        "\n Cognome: "+rs.getString(2)+
+                        "\n Codice: "+rs.getInt(3));
+                System.out.println(" ");
             }
 
         } catch (SQLException e) {

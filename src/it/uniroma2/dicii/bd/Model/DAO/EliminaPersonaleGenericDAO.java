@@ -16,7 +16,7 @@ public class EliminaPersonaleGenericDAO
             accesso = "Bibliotecario";
         if(r.toString().equals("ADMIN"))
             accesso = "Amministratore";
-        System.out.println("Privilegio = "+accesso);
+       // System.out.println("Privilegio = "+accesso);
         return accesso;
     }
     public void Execute(Object... params) throws DAOException
