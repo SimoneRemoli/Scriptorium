@@ -31,6 +31,7 @@ public abstract class Personale
 
     public abstract void aggiungi_personale();
     public abstract void elimina_personale();
+    public abstract void visualizza_personale();
 
     public Personale imposta_acquisizione_in_aggiunta(int codice, int indice)
     {

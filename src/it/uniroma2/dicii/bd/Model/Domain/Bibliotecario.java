@@ -41,4 +41,16 @@ public class Bibliotecario extends Personale
         }
 
     }
+
+    public void visualizza_personale()
+    {
+        try
+        {
+            new VisualizzaPersonaleDAO().Execute(Ruolo.BIBLIOTECARIO);
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+    }
 }

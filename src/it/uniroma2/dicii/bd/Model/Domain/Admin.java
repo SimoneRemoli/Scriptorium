@@ -3,6 +3,7 @@ package it.uniroma2.dicii.bd.Model.Domain;
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.AggiungiPersonaleGenericDAO;
 import it.uniroma2.dicii.bd.Model.DAO.EliminaPersonaleGenericDAO;
+import it.uniroma2.dicii.bd.Model.DAO.VisualizzaPersonaleDAO;
 
 import java.util.Scanner;
 
@@ -38,6 +39,19 @@ public class Admin extends Personale
         {
             throw new RuntimeException(e);
         }
+
+    }
+    public void visualizza_personale()
+    {
+        try
+        {
+            new VisualizzaPersonaleDAO().Execute(Ruolo.ADMIN);
+
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
 
     }
 

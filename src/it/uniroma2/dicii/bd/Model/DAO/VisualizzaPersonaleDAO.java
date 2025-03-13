@@ -5,9 +5,10 @@ import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class EliminaPersonaleGenericDAO
+public class VisualizzaPersonaleDAO
 {
     private String get_privilegio(Ruolo r)
     {
@@ -21,26 +22,25 @@ public class EliminaPersonaleGenericDAO
     }
     public void Execute(Object... params) throws DAOException
     {
-        String nome = (String) params[0];
-        String cognome = (String) params[1];
-        Ruolo ruolo = (Ruolo) params[2];
+        Ruolo ruolo = (Ruolo) params[0];
         String accesso = get_privilegio(ruolo);
-
-        try{
+        try {
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call elimina_personale(?,?,?)}");
-            cs.setString(1,nome);
-            cs.setString(2,cognome);
-            cs.setString(3,accesso);
-            cs.executeQuery();
+            CallableStatement cs = conn.prepareCall("{call report_personale(?)}");
+            cs.setString(1,accesso);
+            ResultSet rs = cs.executeQuery();
 
-        }catch (SQLException e)
-        {
-            if(e.getSQLState().equals("45002"))
+            while(rs.next())
             {
-                System.err.println("Non esiste nessun bibliotecario con nome " + nome + " e cognome " + cognome);
+                System.out.println("Nome: "+rs.getString(1)+" Cognome: "+rs.getString(2)+" Codice: "+rs.getInt(3));
             }
-            throw new DAOException("Errore : " + e.getSQLState() + " " +  e.getMessage());
+
+        } catch (SQLException e) {
+            System.err.println(e.getErrorCode());
+            System.err.println(e.getMessage());
+            System.err.println(e.getSQLState());
+            throw new RuntimeException(e);
         }
+
     }
 }

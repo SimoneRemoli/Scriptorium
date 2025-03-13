@@ -39,7 +39,9 @@ public class AdminController {
                 case 3 -> new Bibliotecario(null,null,null).aggiungi_personale();
                 case 4 -> new Bibliotecario(null,null,null).elimina_personale();
                 case 5 -> controlla_validità_libri();
-                case 6 -> fine();
+                case 6 -> new Bibliotecario(null,null,null).visualizza_personale();
+                case 7 -> new Admin(null,null,null).visualizza_personale();
+                case 8 -> fine();
 
             }
 
