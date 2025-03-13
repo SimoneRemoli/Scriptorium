@@ -1,6 +1,7 @@
 package it.uniroma2.dicii.bd.Controller;
 
 import it.uniroma2.dicii.bd.Model.DAO.ConnectionFactory;
+import it.uniroma2.dicii.bd.Model.Domain.Bibliotecario;
 import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 import it.uniroma2.dicii.bd.View.BibliotecarioView;
 
@@ -23,12 +24,23 @@ public class BibliotecarioController {
             throw new RuntimeException(e);
         }
 
-        try{
-            choice = BibliotecarioView.show_menu();
-        }catch(IOException e)
+
+        while(true)
         {
-            throw new RuntimeException(e);
+
+            try {
+                choice = BibliotecarioView.show_menu();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+            switch(choice)
+            {
+                case 1 -> new Bibliotecario(null,null,null).visualizza_personale();
+            }
+
         }
+
 
 
 
