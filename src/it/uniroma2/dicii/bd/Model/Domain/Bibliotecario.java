@@ -9,6 +9,10 @@ public class Bibliotecario extends Personale
 {
 
 
+    public Bibliotecario(String nome, String cognome, String password) {
+        super(nome, cognome, password);
+    }
+
     @Override
     public void aggiungi_personale()
     {
@@ -16,10 +20,13 @@ public class Bibliotecario extends Personale
         Scanner tastiera = new Scanner(System.in);
         System.out.print("\t Inserisci il nome del bibliotecario: ");
         nome = tastiera.next();
+        tastiera.nextLine();
         System.out.print("\t Inserisci il cognome del bibliotecario: ");
         cognome = tastiera.next();
+        tastiera.nextLine();
         System.out.print("\t Password da assegnare: ");
         password = tastiera.next();
+        tastiera.nextLine();
         try
         {
             new AggiungiPersonaleGenericDAO().Execute(nome, cognome, password, Ruolo.BIBLIOTECARIO);
