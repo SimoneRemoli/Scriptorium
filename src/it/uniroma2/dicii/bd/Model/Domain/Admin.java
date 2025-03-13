@@ -40,7 +40,7 @@ public class Admin extends Personale
         cognome = tastiera.next();
         try
         {
-            new EliminaAdminDAO().Execute(nome, cognome, password, Ruolo.ADMIN);
+            new EliminaAdminDAO().Execute(nome, cognome, Ruolo.ADMIN);
 
         }catch(DAOException e)
         {
