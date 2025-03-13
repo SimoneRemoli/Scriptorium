@@ -27,9 +27,8 @@ public class EliminaPersonaleGenericDAO
         String accesso = get_privilegio(ruolo);
 
         try{
-
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call elimina_admin(?,?,?)}");
+            CallableStatement cs = conn.prepareCall("{call elimina_personale(?,?,?)}");
             cs.setString(1,nome);
             cs.setString(2,cognome);
             cs.setString(3,accesso);

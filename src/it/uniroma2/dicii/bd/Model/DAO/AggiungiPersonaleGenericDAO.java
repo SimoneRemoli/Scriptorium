@@ -32,7 +32,7 @@ public class AggiungiPersonaleGenericDAO
         try
         {
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call aggiungi_admin(?,?,?,?)}");
+            CallableStatement cs = conn.prepareCall("{call aggiungi_personale(?,?,?,?)}");
             cs.setString(1,nome);
             cs.setString(2,cognome);
             cs.setString(3,password);
