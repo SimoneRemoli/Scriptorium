@@ -2,7 +2,9 @@ package it.uniroma2.dicii.bd.Model.Domain;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.AggiungiAdminDAO;
+import it.uniroma2.dicii.bd.Model.DAO.AggiungiPersonaleGenericDAO;
 import it.uniroma2.dicii.bd.Model.DAO.EliminaAdminDAO;
+import it.uniroma2.dicii.bd.Model.DAO.EliminaPersonaleGenericDAO;
 
 import java.util.Scanner;
 
@@ -15,13 +17,16 @@ public class Admin extends Personale
         Scanner tastiera = new Scanner(System.in);
         System.out.print("\t Inserisci il nome dell'Admin: ");
         nome = tastiera.next();
+        tastiera.nextLine();
         System.out.print("\t Inserisci il cognome dell'Admin: ");
         cognome = tastiera.next();
+        tastiera.nextLine();
         System.out.print("\t Password da assegnare: ");
         password = tastiera.next();
+        tastiera.nextLine();
         try
         {
-            new AggiungiAdminDAO().Execute(nome, cognome, password, Ruolo.ADMIN);
+            new AggiungiPersonaleGenericDAO().Execute(nome, cognome, password, Ruolo.ADMIN);
 
         }catch(DAOException e)
         {
@@ -40,7 +45,7 @@ public class Admin extends Personale
         cognome = tastiera.next();
         try
         {
-            new EliminaAdminDAO().Execute(nome, cognome, Ruolo.ADMIN);
+            new EliminaPersonaleGenericDAO().Execute(nome, cognome, Ruolo.ADMIN);
 
         }catch(DAOException e)
         {

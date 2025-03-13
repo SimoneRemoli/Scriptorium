@@ -3,6 +3,7 @@ package it.uniroma2.dicii.bd.Controller;
 import it.uniroma2.dicii.bd.Model.DAO.AggiungiAdminDAO;
 import it.uniroma2.dicii.bd.Model.DAO.ConnectionFactory;
 import it.uniroma2.dicii.bd.Model.Domain.Admin;
+import it.uniroma2.dicii.bd.Model.Domain.Bibliotecario;
 import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 import it.uniroma2.dicii.bd.View.AdminView;
 
@@ -36,8 +37,8 @@ public class AdminController {
             {
                 case 1 -> new Admin().aggiungi_personale();
                 case 2 -> new Admin().elimina_personale();
-                case 3 -> aggiungi_bibliotecario();
-                case 4 -> elimina_bibliotecario();
+                case 3 -> new Bibliotecario().aggiungi_personale();
+                case 4 -> new Bibliotecario().elimina_personale();
                 case 5 -> controlla_validità_libri();
                 case 6 -> fine();
 
