@@ -10,7 +10,7 @@ public class MostraAzioniGenerali
         Scanner tastiera = new Scanner(System.in);
         System.out.println("\n Benvenuto nella piattaforma Scriptorium.");
         System.out.println("\n 1. Login.");
-        System.out.println("\n 2. Registrazione.");
+        System.out.println("\n 2. Richiedi libro.");
         System.out.println("\n > > ");
         scelta = tastiera.nextInt();
         return scelta;

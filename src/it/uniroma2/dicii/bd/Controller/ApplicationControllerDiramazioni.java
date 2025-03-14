@@ -12,6 +12,7 @@ public class ApplicationControllerDiramazioni
        switch(choice)
        {
            case 1 -> new ApplicationController().start();
+           case 2 -> new RichiestaController().start();
 
        }
 
