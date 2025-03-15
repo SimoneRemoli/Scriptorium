@@ -9,7 +9,7 @@ public class RichiediLibroView
     {
         Scanner tastiera = new Scanner(System.in);
         System.out.println("Inserisci il nome del libro da richiedere: ");
-        String nome_libro = tastiera.next();
+        String nome_libro = tastiera.nextLine();
         return nome_libro;
     }
 

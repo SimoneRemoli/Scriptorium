@@ -29,7 +29,7 @@ public class RichiestaController
         }
 
         try {
-            new ControllaDisponibilitaDAO().Execute();
+            new ControllaDisponibilitaDAO().Execute("Disponibile", libro_richiesto);
         }catch(DAOException e)
         {
             throw new RuntimeException(e);
