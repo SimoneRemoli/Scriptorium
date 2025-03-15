@@ -8,12 +8,15 @@ import it.uniroma2.dicii.bd.View.RichiediLibroView;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Scanner;
 
 public class RichiestaController
 {
     public void start()
     {
+        Scanner tastiera = new Scanner(System.in);
         String libro_richiesto="";
+        int num_disponibile;
         try{
             libro_richiesto = RichiediLibroView.richiedi_nome_libro();
 
@@ -29,10 +32,28 @@ public class RichiestaController
         }
 
         try {
-            new ControllaDisponibilitaDAO().Execute("Disponibile", libro_richiesto);
+
+            num_disponibile = new ControllaDisponibilitaDAO().Execute("Disponibile", libro_richiesto);
         }catch(DAOException e)
         {
             throw new RuntimeException(e);
+        }
+        if(num_disponibile>0)
+        {
+            System.out.println("\t Inserisci il tuo nome: ");
+            String nome = tastiera.nextLine();
+            System.out.println("\t Inserisci il tuo cognome: ");
+            String cognome = tastiera.nextLine();
+            System.out.println("\t Inserisci la tua data di nascita (YYYY-MM-DD): ");
+            String data = tastiera.nextLine();
+            System.out.println("\n\t Scegli il contatto preferito. ");
+            System.out.println("\t 1. Email. ");
+            System.out.println("\t 2. Numero di telefono. ");
+            int scelta = tastiera.nextInt();
+        }
+        else
+        {
+            System.out.println("Registrazione fallita");
         }
 
     }
