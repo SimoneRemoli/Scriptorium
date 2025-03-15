@@ -21,7 +21,7 @@ public class ModificAccessoLibroDAO
         try
         {
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call modifica_copia(?,?,?,?,?");
+            CallableStatement cs = conn.prepareCall("{call modifica_copia(?,?,?,?,?}");
             cs.setString(1,isbn);
             cs.setString(2,nome);
             cs.setString(3,cognome);
