@@ -3,6 +3,7 @@ package it.uniroma2.dicii.bd.Controller;
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.ConnectionFactory;
 import it.uniroma2.dicii.bd.Model.DAO.ControllaDisponibilitaDAO;
+import it.uniroma2.dicii.bd.Model.DAO.ModificAccessoLibroDAO;
 import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 import it.uniroma2.dicii.bd.View.RichiediLibroView;
 
@@ -16,8 +17,8 @@ public class RichiestaController
     public void start()
     {
         Scanner tastiera = new Scanner(System.in);
-        String libro_richiesto="",isbn="";
-        int num_disponibile;
+        String libro_richiesto="",isbn="",email="";
+        int num_disponibile,phone = 0;
         try{
             libro_richiesto = RichiediLibroView.richiedi_nome_libro();
 
@@ -55,6 +56,19 @@ public class RichiestaController
             int scelta = tastiera.nextInt();
             switch(scelta)
             {
+                case 1 -> {
+                    email = tastiera.next();
+                }
+                case 2 -> {
+                    phone = tastiera.nextInt();
+                }
+            }
+            try
+            {
+                new ModificAccessoLibroDAO().Execute(isbn, nome, cognome, data, scelta, email, phone);
+            }catch(DAOException e)
+            {
+                throw new RuntimeException(e);
             }
 
         }
