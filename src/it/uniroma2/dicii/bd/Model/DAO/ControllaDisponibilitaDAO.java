@@ -49,10 +49,9 @@ public class ControllaDisponibilitaDAO
            // System.err.println(e.getMessage() + e.getSQLState());
             if(e.getSQLState().equals("45004")) {
                 System.out.println("Copia non disponibile attualmente.");
-                throw new RuntimeException(e);
             }
         }
-        System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+".");
+        if(numero_disponibilità>0) System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+".");
         return new AbstractMap.SimpleEntry(isbn, numero_disponibilità);
     }
 }

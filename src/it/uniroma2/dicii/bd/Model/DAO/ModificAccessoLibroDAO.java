@@ -35,9 +35,5 @@ public class ModificAccessoLibroDAO
             throw new RuntimeException(e);
         }
 
-
-
-
-
     }
 }

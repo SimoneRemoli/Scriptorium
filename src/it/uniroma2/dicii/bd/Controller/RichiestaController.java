@@ -74,7 +74,8 @@ public class RichiestaController
         }
         else
         {
-            System.out.println("Registrazione fallita");
+            System.out.println("Registrazione fallita.");
+            System.out.println("La registrazione avviene solo nel momento in cui la copia è disponibile.");
         }
 
     }
