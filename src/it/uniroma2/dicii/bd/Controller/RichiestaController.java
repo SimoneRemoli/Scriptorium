@@ -57,9 +57,11 @@ public class RichiestaController
             switch(scelta)
             {
                 case 1 -> {
+                    System.out.println("\t Inserisci email: ");
                     email = tastiera.next();
                 }
                 case 2 -> {
+                    System.out.println("\t Inserisci telefono: ");
                     phone = tastiera.next();
                 }
             }

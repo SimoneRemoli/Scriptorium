@@ -51,7 +51,7 @@ public class ControllaDisponibilitaDAO
                 System.out.println("Copia non disponibile attualmente.");
             }
         }
-        if(numero_disponibilità>0) System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+".");
+        if(numero_disponibilità>0) System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+"."); System.out.println("\t ISBN:"+isbn);
         return new AbstractMap.SimpleEntry(isbn, numero_disponibilità);
     }
 }
