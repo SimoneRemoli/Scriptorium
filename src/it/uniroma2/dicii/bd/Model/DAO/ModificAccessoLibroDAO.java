@@ -36,7 +36,9 @@ public class ModificAccessoLibroDAO
 
             while(rs.next())
             {
-                System.out.println("Scaffale = " + rs.getString(1) + "Ripiano = "+ rs.getString(2));
+                System.out.println("Scaffale num: " + rs.getString(1) +
+                        "\nNome scaffale: "+ rs.getString(2)+
+                        "\nNum.Ripiano: " +rs.getInt(3));
             }
         }catch(SQLException e)
         {
