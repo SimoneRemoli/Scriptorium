@@ -65,9 +65,13 @@ public class RichiestaController
                     phone = tastiera.next();
                 }
             }
+            System.out.println("\t Inserisci la data di fine prestito (YYYY-MM-DD): ");
+            String fine_prestito = tastiera.next();
+
+
             try
             {
-                new ModificAccessoLibroDAO().Execute(isbn, nome, cognome, data, scelta, email, phone);
+                new ModificAccessoLibroDAO().Execute(isbn, nome, cognome, data, scelta, email, phone, fine_prestito);
             }catch(DAOException e)
             {
                 throw new RuntimeException(e);
