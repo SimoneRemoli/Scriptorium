@@ -14,7 +14,7 @@ public class BibliotecarioView
         System.out.println("\t 2. Report libri in prestito non restituiti. ");
         System.out.println("\t 3. Informazioni sugli utenti che possiedono la copia di un determinato libro. ");
         System.out.println("\t 4. Sincronizza le copie. ");
-        System.out.println("\t 5. Report disposizioni complete.");
+        System.out.println("\t 5. Report disposizioni complete solo dei libri disponibili.");
         System.out.println("> > ");
         choice = tastiera.nextInt();
         return choice;
