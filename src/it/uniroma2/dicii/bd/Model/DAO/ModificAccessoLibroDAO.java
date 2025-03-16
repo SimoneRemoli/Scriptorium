@@ -21,15 +21,14 @@ public class ModificAccessoLibroDAO
         try
         {
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call modifica_copia(?,?,?,?,?}");
+            CallableStatement cs = conn.prepareCall("{call modifica_copia(?,?,?,?,?,?,?)}");
             cs.setString(1,isbn);
             cs.setString(2,nome);
             cs.setString(3,cognome);
             cs.setString(4,data);
-            if(scelta==1)
-                cs.setString(5,email);
-            if(scelta==2)
-                cs.setString(5,phone);
+            cs.setString(5,email);
+            cs.setString(6,phone);
+            cs.setInt(7,scelta);
             cs.executeQuery();
         }catch(SQLException e)
         {

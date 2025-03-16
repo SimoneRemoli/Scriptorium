@@ -17,8 +17,8 @@ public class RichiestaController
     public void start()
     {
         Scanner tastiera = new Scanner(System.in);
-        String libro_richiesto="",isbn="",email="";
-        int num_disponibile,phone = 0;
+        String libro_richiesto="",isbn="",email="",phone="";
+        int num_disponibile;
         try{
             libro_richiesto = RichiediLibroView.richiedi_nome_libro();
 
@@ -60,7 +60,7 @@ public class RichiestaController
                     email = tastiera.next();
                 }
                 case 2 -> {
-                    phone = tastiera.nextInt();
+                    phone = tastiera.next();
                 }
             }
             try
