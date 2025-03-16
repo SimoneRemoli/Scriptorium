@@ -53,4 +53,15 @@ public class Bibliotecario extends Personale
         }
 
     }
+    public void report()
+    {
+        try
+        {
+            new ReportCompletoDAO().Execute();
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+    }
 }

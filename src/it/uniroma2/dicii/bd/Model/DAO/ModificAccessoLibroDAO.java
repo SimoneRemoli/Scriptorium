@@ -4,6 +4,7 @@ import it.uniroma2.dicii.bd.Exception.DAOException;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class ModificAccessoLibroDAO
@@ -31,7 +32,12 @@ public class ModificAccessoLibroDAO
             cs.setString(6,phone);
             cs.setInt(7,scelta);
             cs.setString(8,fine_prestito);
-            cs.executeQuery();
+            ResultSet rs =  cs.executeQuery();
+
+            while(rs.next())
+            {
+                System.out.println("Scaffale = " + rs.getString(1) + "Ripiano = "+ rs.getString(2));
+            }
         }catch(SQLException e)
         {
             throw new RuntimeException(e);

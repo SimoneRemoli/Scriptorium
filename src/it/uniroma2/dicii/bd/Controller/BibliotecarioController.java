@@ -37,6 +37,7 @@ public class BibliotecarioController {
             switch(choice)
             {
                 case 1 -> new Bibliotecario(null,null,null).visualizza_personale();
+                case 5 -> new Bibliotecario(null,null,null).report();
 
             }
 
