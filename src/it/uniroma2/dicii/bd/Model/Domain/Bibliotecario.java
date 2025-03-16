@@ -64,4 +64,14 @@ public class Bibliotecario extends Personale
         }
 
     }
+    public void aggiungi_copia()
+    {
+        try
+        {
+            new AggiungiCopiaDAO().Execute();
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+    }
 }
