@@ -19,6 +19,7 @@ public class AggiungiLibroDAO
             titolo = tastiera.nextLine();
             System.out.println("Inserisci l'ISBN del nuovo libro: ");
             isbn = tastiera.nextLine();
+            System.out.println("Assegna una categoria (tra le seguenti) al libro:");
         }catch(Exception e)
         {
             System.out.println(e.getMessage()+e.getCause());
@@ -26,8 +27,9 @@ public class AggiungiLibroDAO
 
         try{
 
+            new MostraCategorieDAO().Execute();
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call Aggiungi_Libro(?,?)");
+            CallableStatement cs = conn.prepareCall("{call Aggiungi_Libro(?,?)}");
             cs.setString(1,titolo);
             cs.setString(2,isbn);
             cs.executeQuery();
@@ -36,7 +38,7 @@ public class AggiungiLibroDAO
             throw new RuntimeException(e);
         }
 
-
+//la funzione deve mostrare anche tutte le categorie con la relativa descrizione.
 
     }
 }
