@@ -12,7 +12,9 @@ public class RegistraLibroECopiaDAO
     public void Execute(Object... params) throws DAOException
     {
         String isbn = (String)params[0];
-        int codice_scaffale = (int) params[1], codice_ripiano = 0;
+        String titolo = (String)params[1];
+        int codice_scaffale = (int) params[2], codice_ripiano = 0;
+        int categoria = (int) params[3];
         Scanner tastiera = new Scanner(System.in);
         System.out.println("Inserisci il codice del ripiano dove porre il libro:  ");
         codice_ripiano = tastiera.nextInt();
@@ -20,10 +22,12 @@ public class RegistraLibroECopiaDAO
         try{
 
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("call registra_libro_e_copia(?,?,?)}");
+            CallableStatement cs = conn.prepareCall("{call registra_libro_e_copia(?,?,?,?,?)}");
             cs.setString(1,isbn);
-            cs.setInt(2,codice_scaffale);
-            cs.setInt(3,codice_ripiano);
+            cs.setString(2,titolo);
+            cs.setInt(3,codice_scaffale);
+            cs.setInt(4,codice_ripiano);
+            cs.setInt(5,categoria);
             cs.executeQuery();
         }catch(SQLException e)
         {

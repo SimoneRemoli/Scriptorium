@@ -85,7 +85,7 @@ public class AggiungiLibroDAO
                 " con codice "+ categoria+";");
         System.out.println("Attualmente ci sono "+copie_attualmente_disponibili_book+" copie disponibili nel magazzino del libro appena aggiunto.");
         System.out.println("------------------------------------------------------------------------");
-    new RegistraLibroECopiaDAO().Execute(isbn, codice_scaffale);
+        new RegistraLibroECopiaDAO().Execute(isbn,titolo, codice_scaffale, categoria);
 
 
 
