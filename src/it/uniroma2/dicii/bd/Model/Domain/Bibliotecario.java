@@ -12,10 +12,21 @@ public class Bibliotecario extends Personale
     public Bibliotecario(String nome, String cognome, String password) {
         super(nome, cognome, password);
     }
+
+    public void informazioni_chi_possiede_cosa()
+    {
+        try{
+
+            new InformazioniPossessoDAO().Execute();
+
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+    }
     public void aggiungi_libro_nuovo_con_una_copia()
     {
-
-
         try
         {
             new AggiungiLibroDAO().Execute();
