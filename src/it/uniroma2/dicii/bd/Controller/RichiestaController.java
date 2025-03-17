@@ -16,6 +16,7 @@ public class RichiestaController
 {
     public void start()
     {
+        int fine_prestito = 0;
         Scanner tastiera = new Scanner(System.in);
         String libro_richiesto="",isbn="",email="",phone="";
         int num_disponibile;
@@ -65,8 +66,11 @@ public class RichiestaController
                     phone = tastiera.next();
                 }
             }
-            System.out.println("\t Inserisci la data di fine prestito (YYYY-MM-DD): ");
-            String fine_prestito = tastiera.next();
+            do {
+                System.out.println("\t Per quanto vuoi tenerlo in consultazione: 1. Un mese, 2. Due mesi, 3. Tre mesi. ");
+                fine_prestito = tastiera.nextInt();
+            }while(fine_prestito!=1 || fine_prestito!=2 || fine_prestito!=3);
+
 
 
             try

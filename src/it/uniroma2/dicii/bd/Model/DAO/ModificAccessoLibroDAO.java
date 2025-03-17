@@ -18,7 +18,7 @@ public class ModificAccessoLibroDAO
         int scelta =  (int)             params[4];
         String email = (String)         params[5];
         String phone = (String)         params[6];
-        String fine_prestito = (String) params[7];
+        int fine_prestito = (int)       params[7];
 
         try
         {
@@ -31,7 +31,7 @@ public class ModificAccessoLibroDAO
             cs.setString(5,email);
             cs.setString(6,phone);
             cs.setInt(7,scelta);
-            cs.setString(8,fine_prestito);
+            cs.setInt(8,fine_prestito);
             ResultSet rs =  cs.executeQuery();
 
             while(rs.next())
