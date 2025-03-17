@@ -12,6 +12,19 @@ public class Bibliotecario extends Personale
     public Bibliotecario(String nome, String cognome, String password) {
         super(nome, cognome, password);
     }
+    public void aggiungi_libro_nuovo_con_una_copia()
+    {
+
+
+        try
+        {
+            new AggiungiLibroDAO().Execute();
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+    }
 
     @Override
     public void aggiungi_personale()

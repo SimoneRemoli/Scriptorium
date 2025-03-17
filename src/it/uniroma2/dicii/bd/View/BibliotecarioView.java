@@ -16,6 +16,7 @@ public class BibliotecarioView
         System.out.println("\t 4. Sincronizza le copie. ");
         System.out.println("\t 5. Report disposizioni complete solo dei libri disponibili.");
         System.out.println("\t 6. Aggiungi una nuova copia di un libro esistente");
+        System.out.println("\t 7. Aggiungi un nuovo libro (si presume che venga generata almeno una copia)");
         System.out.println("> > ");
         choice = tastiera.nextInt();
         return choice;

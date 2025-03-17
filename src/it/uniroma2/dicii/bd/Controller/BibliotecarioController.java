@@ -39,6 +39,7 @@ public class BibliotecarioController {
                 case 1 -> new Bibliotecario(null,null,null).visualizza_personale();
                 case 5 -> new Bibliotecario(null,null,null).report();
                 case 6 -> new Bibliotecario(null,null,null).aggiungi_copia();
+                case 7 -> new Bibliotecario(null,null,null).aggiungi_libro_nuovo_con_una_copia();
 
             }
 
