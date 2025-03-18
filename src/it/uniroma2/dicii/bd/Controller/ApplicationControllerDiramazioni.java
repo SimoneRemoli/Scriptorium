@@ -13,6 +13,7 @@ public class ApplicationControllerDiramazioni
        {
            case 1 -> new ApplicationController().start();
            case 2 -> new RichiestaController().start();
+           case 3 -> new RiconsegnaController().start();
 
        }
 
