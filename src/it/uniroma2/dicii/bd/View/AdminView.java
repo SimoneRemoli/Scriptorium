@@ -13,9 +13,6 @@ public class AdminView
         System.out.println("\t 2. Elimina  un amministratore dal circuito.");
         System.out.println("\t 3. Aggiungi  un bibliotecario nel circuito.");
         System.out.println("\t 4. Elimina   un bibliotecario dal circuito.");
-        System.out.println("\t 5. Controlla validità libri: un libro che non è stato" +
-                " prestato nei passati 10 anni viene dismesso dalla " +
-                "biblioteca.");
         System.out.println("\t 6. Visualizza i bibliotecari attualmente registrati nel circuito.");
         System.out.println("\t 7. Visualizza gli amministratori attualmente registrati nel circuito.");
         System.out.println("\t 8. Esci.");
