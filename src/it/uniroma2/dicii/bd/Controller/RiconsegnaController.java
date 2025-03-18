@@ -1,5 +1,7 @@
 package it.uniroma2.dicii.bd.Controller;
 
+import it.uniroma2.dicii.bd.Exception.DAOException;
+import it.uniroma2.dicii.bd.Model.DAO.RiconsegnaDAO;
 import it.uniroma2.dicii.bd.Model.Domain.Utente;
 import it.uniroma2.dicii.bd.View.RiconsegnaView;
 
@@ -18,9 +20,22 @@ public class RiconsegnaController
 
         }catch (IOException e)
         {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
             throw new RuntimeException(e);
         }
+
+
+        try
+        {
+            new RiconsegnaDAO().Execute(utente_registrato.getNome(), utente_registrato.getCognome(), utente_registrato.getData_di_nascita());
+        }catch(DAOException e)
+        {
+            System.err.println(e.getMessage());
+            throw new RuntimeException(e);
+        }
+
+
+
 
 
 
