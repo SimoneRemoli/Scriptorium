@@ -13,6 +13,17 @@ public class Bibliotecario extends Personale
         super(nome, cognome, password);
     }
 
+    public void validate()
+    {
+        try{
+            new ValidazioneDAO().Execute();
+        }catch(DAOException e)
+        {
+            throw new RuntimeException(e);
+        }
+
+    }
+
     public void informazioni_chi_possiede_cosa()
     {
         try{
