@@ -1,11 +1,14 @@
 package it.uniroma2.dicii.bd.Controller;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
+import it.uniroma2.dicii.bd.Model.DAO.ConnectionFactory;
 import it.uniroma2.dicii.bd.Model.DAO.RiconsegnaDAO;
+import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 import it.uniroma2.dicii.bd.Model.Domain.Utente;
 import it.uniroma2.dicii.bd.View.RiconsegnaView;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 public class RiconsegnaController
@@ -24,6 +27,11 @@ public class RiconsegnaController
             throw new RuntimeException(e);
         }
 
+        try{
+            ConnectionFactory.Cambio_Di_Ruolo(Ruolo.BIBLIOTECARIO);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
 
         try
         {
