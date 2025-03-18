@@ -1,6 +1,7 @@
 package it.uniroma2.dicii.bd.Model.DAO;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
+import it.uniroma2.dicii.bd.Model.Domain.Libro;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -9,7 +10,7 @@ import java.sql.SQLException;
 
 public class RiconsegnaDAO
 {
-    public void Execute(Object... params) throws DAOException
+    public Libro Execute(Object... params) throws DAOException
     {
         String nome = (String) params[0];
         String cognome = (String) params[1];
@@ -49,6 +50,7 @@ public class RiconsegnaDAO
             }
             throw new RuntimeException(e);
         }
+        return new Libro(isbn,titolo,numcopy);
 
     }
 }
