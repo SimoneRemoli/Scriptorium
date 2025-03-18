@@ -17,11 +17,14 @@ public class RiconsegnaDAO
         try
         {
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("{call riconsegna(?,?,?)}");
+            CallableStatement cs = conn.prepareCall("{call controlla_utente(?,?,?)}");
             cs.setString(1,nome);
             cs.setString(2,cognome);
             cs.setString(3,data);
             cs.executeQuery();
+            System.out.println("Ok, l'utente è stato trovato. ");
+
+
 
         } catch (SQLException e) {
             throw new RuntimeException(e);

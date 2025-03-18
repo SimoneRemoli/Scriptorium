@@ -42,6 +42,15 @@ public class ModificAccessoLibroDAO
             }
         }catch(SQLException e)
         {
+            if(e.getSQLState().equals("45098"))
+            {
+                System.out.println("Non puoi richiedere un secondo libro, hai già un libro in prenotazione");
+
+            }
+            if(e.getSQLState().equals("45008"))
+            {
+                System.out.println("Non ci sono copie disponibili del libro.");
+            }
             throw new RuntimeException(e);
         }
     }
