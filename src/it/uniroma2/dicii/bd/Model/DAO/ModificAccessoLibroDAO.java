@@ -1,6 +1,7 @@
 package it.uniroma2.dicii.bd.Model.DAO;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
+import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -20,8 +21,10 @@ public class ModificAccessoLibroDAO
         String phone = (String)         params[6];
         int fine_prestito = (int)       params[7];
 
+
         try
         {
+
             Connection conn = ConnectionFactory.getConnection();
             CallableStatement cs = conn.prepareCall("{call modifica_copia(?,?,?,?,?,?,?,?)}");
             cs.setString(1,isbn);
@@ -51,6 +54,7 @@ public class ModificAccessoLibroDAO
             {
                 System.out.println("Non ci sono copie disponibili del libro.");
             }
+            System.out.println(e.getMessage()+e.getSQLState());
             throw new RuntimeException(e);
         }
     }

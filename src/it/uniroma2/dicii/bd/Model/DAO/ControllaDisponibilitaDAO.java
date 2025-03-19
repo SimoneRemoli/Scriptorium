@@ -46,12 +46,17 @@ public class ControllaDisponibilitaDAO
             }
         }catch(SQLException e)
         {
-           // System.err.println(e.getMessage() + e.getSQLState());
+            System.err.println(e.getMessage() + e.getSQLState());
             if(e.getSQLState().equals("45004")) {
-                System.out.println("Copia non disponibile attualmente.");
+                System.out.println("Copia non disponibile attualmente nel database interno della biblioteca.");
+                System.out.println("Ricerco nel circuito convenzionato con altre biblioteche.");
+                numero_disponibilità = new ControllaCircuitoBiblioDAO().Execute(nome_libro);
+
             }
+            //throw new RuntimeException(e);
         }
-        if(numero_disponibilità>0) System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+"."); System.out.println("\t ISBN:"+isbn);
+        if(numero_disponibilità>0)
+        {System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+"."); System.out.println("\t ISBN:"+isbn);}
         return new AbstractMap.SimpleEntry(isbn, numero_disponibilità);
     }
 }

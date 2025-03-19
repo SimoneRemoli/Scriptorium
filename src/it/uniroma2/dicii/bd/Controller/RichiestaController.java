@@ -78,6 +78,7 @@ public class RichiestaController
                 new ModificAccessoLibroDAO().Execute(isbn, nome, cognome, data, scelta, email, phone, fine_prestito);
             }catch(DAOException e)
             {
+                System.err.println(e.getMessage()+e.getCause());
                 throw new RuntimeException(e);
             }
 
