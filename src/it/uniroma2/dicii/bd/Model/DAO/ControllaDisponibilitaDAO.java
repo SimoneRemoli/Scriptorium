@@ -54,7 +54,7 @@ public class ControllaDisponibilitaDAO
             }
             //throw new RuntimeException(e);
         }
-        if(numero_disponibilità>0)
+        if((numero_disponibilità>0)&&(isbn!=""))
         {System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+"."); System.out.println("\t ISBN:"+isbn);}
         return new AbstractMap.SimpleEntry(isbn, numero_disponibilità);
     }
