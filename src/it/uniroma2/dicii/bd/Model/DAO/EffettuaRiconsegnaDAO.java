@@ -30,6 +30,11 @@ public class EffettuaRiconsegnaDAO
             System.out.println("La copia " + numero_copia + " è stata riconsegnata. ");
         }catch(SQLException e)
         {
+
+            if(e.getSQLState().equals("45088"))
+            {
+                System.err.println("Errore riconsegna");
+            }
             throw new RuntimeException(e);
         }
 
