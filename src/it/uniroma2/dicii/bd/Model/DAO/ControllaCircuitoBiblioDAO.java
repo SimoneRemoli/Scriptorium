@@ -20,11 +20,15 @@ public class ControllaCircuitoBiblioDAO
             cs.setString(1,titolo);
             ResultSet rs =  cs.executeQuery();
 
+            System.out.println("\nLibro trovato altrove.\n");
+
             while(rs.next())
             {
                 numero_copia+=rs.getInt(3);
-                System.out.println(rs.getString(1)+rs.getString(2)+ rs.getInt(3)+rs.getString(4));
+                System.out.println("ISBN: "+rs.getString(1)+"\nTitolo: "+rs.getString(2)+"\nDisponibilità: "+rs.getInt(3)+"\nCittà: "+rs.getString(4)+"\nNome biblioteca: "+rs.getString(5)+"\n");
             }
+
+            System.out.println("Copie totali del libro = " + numero_copia);
 
         }catch(SQLException e)
         {
