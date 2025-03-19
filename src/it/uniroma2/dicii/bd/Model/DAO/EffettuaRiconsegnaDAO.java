@@ -27,6 +27,7 @@ public class EffettuaRiconsegnaDAO
 
 
             cs.executeQuery();
+            System.out.println("La copia " + numero_copia + " è stata riconsegnata. ");
         }catch(SQLException e)
         {
             throw new RuntimeException(e);

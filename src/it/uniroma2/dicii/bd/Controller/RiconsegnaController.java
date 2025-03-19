@@ -50,7 +50,8 @@ public class RiconsegnaController
             new EffettuaRiconsegnaDAO().Execute(book.getIsbn(), book.getNum_copia(), utente_registrato.getNome(), utente_registrato.getCognome(), utente_registrato.getData_di_nascita());
         }catch(DAOException e)
         {
-
+            System.err.println(e.getMessage());
+            throw new RuntimeException(e);
         }
 
 
