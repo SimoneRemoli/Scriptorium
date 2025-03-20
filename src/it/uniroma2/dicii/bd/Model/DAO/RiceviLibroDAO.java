@@ -22,7 +22,7 @@ public class RiceviLibroDAO
         int scelta_mail_phone = (int) params[6];
         String email = (String) params[7];
         String phone = (String) params[8];
-        String fine_prestito = (String) params[9];
+        int fine_prestito = (int) params[9];
 
         String nome_biblio="", ISBN="", city="", titolo="";
         int disponibilita=0;
@@ -58,7 +58,7 @@ public class RiceviLibroDAO
             cs.setString(9,email);
             cs.setString(10, phone);
             cs.setInt(11,scelta_mail_phone);
-            cs.setString(12, fine_prestito);
+            cs.setInt(12, fine_prestito);
             cs.executeQuery();
             System.out.println("Libro prenotato");
         } catch (SQLException e) {

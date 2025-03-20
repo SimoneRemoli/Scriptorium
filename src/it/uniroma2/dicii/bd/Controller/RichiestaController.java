@@ -62,8 +62,10 @@ public class RichiestaController
             }
             try {
                 Map.Entry<String, String> dati_string = ContattoView.contact(scelta);
-                email = dati_string.getKey();
-                phone = dati_string.getKey();
+                if (dati_string != null) {
+                    email = dati_string.getKey();   // Prende l'email (se scelta=1)
+                    phone = dati_string.getValue(); // Prende il telefono (se scelta=2)
+                }
             }catch (IOException e)
             {
                 throw  new RuntimeException(e);
@@ -125,8 +127,10 @@ public class RichiestaController
                 }
                 try {
                     Map.Entry<String, String> dati_string = ContattoView.contact(scelta);
-                    email = dati_string.getKey();
-                    phone = dati_string.getKey();
+                    if (dati_string != null) {
+                        email = dati_string.getKey();   // Prende l'email (se scelta=1)
+                        phone = dati_string.getValue(); // Prende il telefono (se scelta=2)
+                    }
                 }catch (IOException e)
                 {
                     throw  new RuntimeException(e);
