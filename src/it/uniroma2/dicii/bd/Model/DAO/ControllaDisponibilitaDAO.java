@@ -46,7 +46,7 @@ public class ControllaDisponibilitaDAO
             }
         }catch(SQLException e)
         {
-            System.err.println(e.getMessage() + e.getSQLState());
+            //System.err.println(e.getMessage() + e.getSQLState());
             if(e.getSQLState().equals("45004")) {
                 System.out.println("Copia non disponibile attualmente nel database interno della biblioteca.\n");
                 //numero_disponibilità = new ControllaCircuitoBiblioDAO().Execute(nome_libro);
