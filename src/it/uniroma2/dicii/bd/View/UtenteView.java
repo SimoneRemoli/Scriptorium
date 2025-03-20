@@ -5,7 +5,7 @@ import it.uniroma2.dicii.bd.Model.Domain.Utente;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class RiconsegnaView
+public class UtenteView
 {
     public static Utente show_menu() throws IOException
     {

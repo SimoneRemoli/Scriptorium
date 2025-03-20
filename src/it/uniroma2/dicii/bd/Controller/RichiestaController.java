@@ -2,20 +2,30 @@ package it.uniroma2.dicii.bd.Controller;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.ConnectionFactory;
+import it.uniroma2.dicii.bd.Model.DAO.ControllaCircuitoBiblioDAO;
 import it.uniroma2.dicii.bd.Model.DAO.ControllaDisponibilitaDAO;
 import it.uniroma2.dicii.bd.Model.DAO.ModificAccessoLibroDAO;
+import it.uniroma2.dicii.bd.Model.Domain.InformazionIAltrove;
 import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
+import it.uniroma2.dicii.bd.Model.Domain.Utente;
+import it.uniroma2.dicii.bd.View.ContattoView;
 import it.uniroma2.dicii.bd.View.RichiediLibroView;
+import it.uniroma2.dicii.bd.View.TipologiaContattoView;
+import it.uniroma2.dicii.bd.View.UtenteView;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
 public class RichiestaController
 {
-    public void start()
-    {
+    List<InformazionIAltrove> getInfo = new ArrayList<>();
+    Utente user;
+    int scelta = 0;
+    public void start() throws DAOException {
         int fine_prestito = 0;
         Scanner tastiera = new Scanner(System.in);
         String libro_richiesto="",isbn="",email="",phone="";
@@ -45,26 +55,24 @@ public class RichiestaController
         }
         if(num_disponibile>0)
         {
-            System.out.println("\t Inserisci il tuo nome: ");
-            String nome = tastiera.nextLine();
-            System.out.println("\t Inserisci il tuo cognome: ");
-            String cognome = tastiera.nextLine();
-            System.out.println("\t Inserisci la tua data di nascita (YYYY-MM-DD): ");
-            String data = tastiera.nextLine();
-            System.out.println("\n\t Scegli il contatto preferito. ");
-            System.out.println("\t 1. Email. ");
-            System.out.println("\t 2. Numero di telefono. ");
-            int scelta = tastiera.nextInt();
-            switch(scelta)
+            try {
+                user = UtenteView.show_menu();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            try {
+               scelta = TipologiaContattoView.menu_choice();
+            }catch (IOException e)
             {
-                case 1 -> {
-                    System.out.println("\t Inserisci email: ");
-                    email = tastiera.next();
-                }
-                case 2 -> {
-                    System.out.println("\t Inserisci telefono: ");
-                    phone = tastiera.next();
-                }
+                throw  new RuntimeException(e);
+            }
+            try {
+                Map.Entry<String, String> dati_string = ContattoView.contact(scelta);
+                email = dati_string.getKey();
+                phone = dati_string.getKey();
+            }catch (IOException e)
+            {
+                throw  new RuntimeException(e);
             }
             do {
                 System.out.println("\t Per quanto vuoi tenerlo in consultazione: 1. Un mese, 2. Due mesi, 3. Tre mesi. ");
@@ -75,7 +83,7 @@ public class RichiestaController
 
             try
             {
-                new ModificAccessoLibroDAO().Execute(isbn, nome, cognome, data, scelta, email, phone, fine_prestito);
+                new ModificAccessoLibroDAO().Execute(isbn, user.getNome(), user.getCognome(), user.getData_di_nascita(), scelta, email, phone, fine_prestito);
             }catch(DAOException e)
             {
                 System.err.println(e.getMessage()+e.getCause());
@@ -85,8 +93,17 @@ public class RichiestaController
         }
         else
         {
-            System.out.println("Registrazione fallita.");
-            System.out.println("La registrazione avviene solo nel momento in cui la copia è disponibile.");
+            getInfo =  new ControllaCircuitoBiblioDAO().Execute(libro_richiesto);
+            int i=0;
+            for(InformazionIAltrove a:getInfo)
+            {
+                System.out.println(i++ +")"+"ISBN: "+a.getISBN()+", TITOLO: "+a.getTitolo()+", Disponibilità: "+a.getDisponibilita()+", Città: "+a.getCitta()+", Nome biblioteca: "+a.getNome_biblioteca());
+            }
+
+            if(i==0) {
+                System.out.println("Registrazione fallita.");
+                System.out.println("La registrazione avviene solo nel momento in cui la copia è disponibile.");
+            }
         }
 
     }

@@ -7,7 +7,7 @@ import it.uniroma2.dicii.bd.Model.DAO.RiconsegnaDAO;
 import it.uniroma2.dicii.bd.Model.Domain.Libro;
 import it.uniroma2.dicii.bd.Model.Domain.Ruolo;
 import it.uniroma2.dicii.bd.Model.Domain.Utente;
-import it.uniroma2.dicii.bd.View.RiconsegnaView;
+import it.uniroma2.dicii.bd.View.UtenteView;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -22,7 +22,7 @@ public class RiconsegnaController
     {
         try
         {
-            utente_registrato = RiconsegnaView.show_menu();
+            utente_registrato = UtenteView.show_menu();
 
         }catch (IOException e)
         {

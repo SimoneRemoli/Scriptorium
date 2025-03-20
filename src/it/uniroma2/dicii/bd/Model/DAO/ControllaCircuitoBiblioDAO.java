@@ -1,15 +1,19 @@
 package it.uniroma2.dicii.bd.Model.DAO;
 
 import it.uniroma2.dicii.bd.Exception.DAOException;
+import it.uniroma2.dicii.bd.Model.Domain.InformazionIAltrove;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ControllaCircuitoBiblioDAO
 {
-    public int Execute(Object... params) throws DAOException
+    private List<InformazionIAltrove> informazioni = new ArrayList<>();
+    public List<InformazionIAltrove> Execute(Object... params) throws DAOException
     {
         int numero_copia = 0;
         String titolo = (String)params[0];
@@ -25,7 +29,7 @@ public class ControllaCircuitoBiblioDAO
             while(rs.next())
             {
                 numero_copia+=rs.getInt(3);
-                System.out.println("ISBN: "+rs.getString(1)+"\nTitolo: "+rs.getString(2)+"\nDisponibilità: "+rs.getInt(3)+"\nCittà: "+rs.getString(4)+"\nNome biblioteca: "+rs.getString(5)+"\n");
+                informazioni.add(new InformazionIAltrove(rs.getString(1), rs.getString(2), rs.getInt(3), rs.getString(4), rs.getString(5)));
             }
 
             System.out.println("Copie totali del libro = " + numero_copia);
@@ -39,9 +43,8 @@ public class ControllaCircuitoBiblioDAO
             }
         }
 
-        return numero_copia;
 
-
+    return informazioni;
 
     }
 }
