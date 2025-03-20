@@ -24,8 +24,8 @@ public class RiceviLibroDAO
         String phone = (String) params[8];
         String fine_prestito = (String) params[9];
 
-        String nome_biblio, ISBN, city, titolo;
-        int disponibilita;
+        String nome_biblio="", ISBN="", city="", titolo="";
+        int disponibilita=0;
 
         if(numero_biblioteche==1)
         {
@@ -46,7 +46,21 @@ public class RiceviLibroDAO
 
         try{
             Connection conn = ConnectionFactory.getConnection();
-            CallableStatement cs = conn.prepareCall("call aggiornamento_altrove()");
+            CallableStatement cs = conn.prepareCall("{call aggiornamento_altrove(?,?,?,?,?,?,?,?,?,?,?,?)}");
+            cs.setString(1,ISBN);
+            cs.setString(2,titolo);
+            cs.setInt(3,disponibilita);
+            cs.setString(4,city);
+            cs.setString(5,nome_biblio);
+            cs.setString(6,nome_utente);
+            cs.setString(7,cognome_utente);
+            cs.setString(8,data_nascita);
+            cs.setString(9,email);
+            cs.setString(10, phone);
+            cs.setInt(11,scelta_mail_phone);
+            cs.setString(12, fine_prestito);
+            cs.executeQuery();
+            System.out.println("Libro prenotato");
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
