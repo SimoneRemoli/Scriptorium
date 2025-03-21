@@ -15,8 +15,8 @@ public class RiconsegnaDAO
         String nome = (String) params[0];
         String cognome = (String) params[1];
         String data = (String) params[2];
-        String titolo="",isbn="";
-        int numcopy=0;
+        String titolo="",isbn="",nome_biblio="",citta="";
+        int numcopy=0,colonne=0;
 
         try
         {
@@ -26,21 +26,58 @@ public class RiconsegnaDAO
             cs.setString(2,cognome);
             cs.setString(3,data);
 
-            ResultSet rs = cs.executeQuery();
+            //ResultSet rs = cs.executeQuery();
+            boolean controllo = cs.execute();
             System.out.println("Ok, l'utente è stato trovato. ");
 
-            while(rs.next())
+
+            if(controllo)
             {
-                nome = rs.getString(1);
-                cognome = rs.getString(2);
-                titolo = rs.getString(3);
-                isbn = rs.getString(4);
-                numcopy = rs.getInt(5);
+
+                    ResultSet rs = cs.getResultSet();
+
+                    colonne = rs.getMetaData().getColumnCount();
+
+                    if(colonne==5)
+                    {
+                        System.out.println("L'utente ha un prestito locale");
+                        while(rs.next())
+                        {
+                            nome = rs.getString(1);
+                            cognome = rs.getString(2);
+                            titolo = rs.getString(3);
+                            isbn = rs.getString(4);
+                            numcopy = rs.getInt(5);
+                        }
+                    }
+                    if(colonne==6)
+                    {
+                        System.out.println("L'utente ha un prestito presso altra biblioteca");
+                        while(rs.next())
+                        {
+                            nome = rs.getString(1);
+                            cognome = rs.getString(2);
+                            titolo = rs.getString(3);
+                            isbn = rs.getString(4);
+                            nome_biblio = rs.getString(5);
+                            citta = rs.getString(6);
+                        }
+                    }
+
 
             }
+            else {
+                System.out.println("L'utente non ha prestiti registrati.");
+            }
 
-            System.out.println("L'utente "+nome+" "+cognome+" possiede attualmente la copia numero "+numcopy
-            +" con ISBN:"+isbn+" che ha il seguente titolo '"+titolo+"'.");
+            if(colonne==5) {
+                System.out.println("L'utente " + nome + " " + cognome + " possiede attualmente la copia numero " + numcopy
+                        + " con ISBN:" + isbn + " che ha il seguente titolo '" + titolo + "'.");
+            }
+            if(colonne==6)
+            {
+                System.out.println("L'utente " + nome + " " + cognome + " possiede il libro con ISBN:" + isbn + " che ha il seguente titolo '" + titolo + "preso in prestito dalla " + nome_biblio +  " presso la città di " + citta + "'.");
+            }
 
         } catch (SQLException e) {
 
