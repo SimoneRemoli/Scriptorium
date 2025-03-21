@@ -87,7 +87,7 @@ public class RiconsegnaDAO
             }
             throw new RuntimeException(e);
         }
-        return new Libro(isbn,titolo,numcopy);
+        return new Libro(isbn,colonne,numcopy,nome_biblio,citta);
 
     }
 }

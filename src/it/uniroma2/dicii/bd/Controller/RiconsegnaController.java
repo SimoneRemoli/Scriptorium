@@ -47,7 +47,7 @@ public class RiconsegnaController
 
         try
         {
-            new EffettuaRiconsegnaDAO().Execute(book.getIsbn(), book.getNum_copia(), utente_registrato.getNome(), utente_registrato.getCognome(), utente_registrato.getData_di_nascita());
+            new EffettuaRiconsegnaDAO().Execute(book.getIsbn(), book.getNum_copia(), utente_registrato.getNome(), utente_registrato.getCognome(), utente_registrato.getData_di_nascita(), book.getColonne(), book.getNome_biblio(), book.getCitta());
         }catch(DAOException e)
         {
             System.err.println(e.getMessage());

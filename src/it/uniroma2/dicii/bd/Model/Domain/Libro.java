@@ -3,14 +3,18 @@ package it.uniroma2.dicii.bd.Model.Domain;
 public class Libro
 {
     String isbn;
-    String titolo;
+    int colonne;
     int num_copia;
+    String nome_biblio;
+    String citta;
 
-    public Libro(String i, String t, int n)
+    public Libro(String i, int c, int n, String bi, String ci)
     {
         this.isbn = i;
-        this.titolo = t;
+        this.colonne = c;
         this.num_copia = n;
+        this.nome_biblio = bi;
+        this.citta = ci;
     }
 
     public String getIsbn() {
@@ -21,7 +25,15 @@ public class Libro
         return num_copia;
     }
 
-    public String getTitolo() {
-        return titolo;
+    public int getColonne() {
+        return colonne;
+    }
+
+    public String getCitta() {
+        return citta;
+    }
+
+    public String getNome_biblio() {
+        return nome_biblio;
     }
 }
