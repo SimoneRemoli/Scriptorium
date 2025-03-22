@@ -792,6 +792,75 @@ This section illustrates the logical schema of the system by presenting represen
   </tbody>
 </table>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">First Name</th>
+      <th style="text-align: center;">Last Name</th>
+      <th style="text-align: center;">Date of Birth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>Simone</td>
+      <td>Remoli</td>
+      <td>2000-10-02</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">First Name</th>
+      <th style="text-align: center;">Last Name</th>
+      <th style="text-align: center;">Date of Birth</th>
+      <th style="text-align: center;">Phone</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>Simone</td>
+      <td>Remoli</td>
+      <td>2000-10-02</td>
+      <td>3881211212</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+This table indicates that the user Simone Remoli has requested a copy of the book identified by ISBN 978-0000000004, initiating a loan on March 22, 2025, with a scheduled return date of June 22, 2025.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">ISBN</th>
+      <th style="text-align: center;">Copy Number</th>
+      <th style="text-align: center;">First Name</th>
+      <th style="text-align: center;">Last Name</th>
+      <th style="text-align: center;">Date of Birth</th>
+      <th style="text-align: center;">Loan Start Date</th>
+      <th style="text-align: center;">Loan End Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-0000000004</td>
+      <td>1</td>
+      <td>Simone</td>
+      <td>Remoli</td>
+      <td>2000-10-02</td>
+      <td>2025-03-22</td>
+      <td>2025-06-22</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
