@@ -1,6 +1,7 @@
 
 
 
+
 <h1 align="center">
   Scriptorium
   <img src="https://github.com/user-attachments/assets/757db61e-2042-473a-95a8-c6c2fc870a2f" width="30px"/>
@@ -10,7 +11,7 @@ Scriptorium is a Database Systems project dedicated to managing a library. Just 
 <p align="center"> </p>
 
 
-<p align="center"><img src= "https://cdn.pixabay.com/photo/2018/07/14/11/32/network-3537400_960_720.png" alt="MaxKB" width="300" /></p>
+<p align="center"><img src= "https://github.com/user-attachments/assets/a24ca27b-605b-4f06-ba54-b67d7e695d9f" width="300" /></p>
 <h3 align="center">Simone Remoli</h3>
 <p align="center">
   <a href="https://www.gnu.org/licenses/gpl-3.0.html#license-text"><img src="https://img.shields.io/github/license/1Panel-dev/maxkb?color=%231890FF" alt="License: GPL v3"></a> 
