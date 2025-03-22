@@ -76,7 +76,7 @@ public class RiconsegnaDAO
             }
             if(colonne==6)
             {
-                System.out.println("L'utente " + nome + " " + cognome + " possiede il libro con ISBN:" + isbn + " che ha il seguente titolo '" + titolo + "preso in prestito dalla " + nome_biblio +  " presso la città di " + citta + "'.");
+                System.out.println("L'utente " + nome + " " + cognome + " possiede il libro con ISBN:" + isbn + " che ha il seguente titolo '" + titolo + "' preso in prestito dalla " + nome_biblio +  " presso la città di " + citta + ".");
             }
 
         } catch (SQLException e) {
