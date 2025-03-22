@@ -754,7 +754,7 @@ This section illustrates the logical schema of the system by presenting represen
       <td>In prestito altra biblioteca</td>
       <td>978-0000000003</td>
     </tr>
-    <tr style="background-color: #ff0000; text-align: center;">
+    <tr style="background-color: #00ff00; text-align: center;">
       <td>1</td>
       <td>In prestito utente</td>
       <td>978-0000000004</td>
