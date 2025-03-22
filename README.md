@@ -1,8 +1,9 @@
 
 
+
 <h1 align="center">
   Scriptorium
-  <img src="https://graphicmaths.com/img/computer-science/graph-theory/dijkstras-algorithm/graph.png" width="30px"/>
+  <img src="https://github.com/user-attachments/assets/b78b5a81-185a-4cb0-b0c9-4db3d4c81b9f" width="30px"/>
 </h1>
 Scriptorium is a Database Systems project dedicated to managing a library. Just as ancient scriptoria preserved and organized knowledge, this information system archives, manages, and optimizes access to books and bibliographic data in a modern and efficient way. 
 
