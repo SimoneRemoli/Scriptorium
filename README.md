@@ -66,7 +66,6 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 
 <br>
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
 <img src="https://github.com/user-attachments/assets/782918b1-8fec-46cc-a392-d0c4f37fdbac" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="163" height="179">
