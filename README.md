@@ -27,7 +27,7 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a id="readme-top">ddd</a>
+<a id="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -38,14 +38,19 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 
 
 
-
+<p align="center">
+  <em>
+    📚 <strong>Scriptorium</strong> was developed as an academic project for the <strong>Database Systems</strong> course at the 
+    <strong>Faculty of Engineering</strong>, University of Rome <strong>Tor Vergata</strong>.
+  </em>
+</p>
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/user-attachments/assets/85461217-bc57-4664-b7b7-08affee891c9)" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
