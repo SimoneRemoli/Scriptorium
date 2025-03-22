@@ -209,70 +209,1843 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
     </tr>
   </thead>
   <tbody>
+
     <tr style="background-color: #f9f9f9;">
       <td>Enciclopedia Universale</td>
       <td>978-0000000001</td>
       <td>000</td>
       <td>Yes</td>
     </tr>
-    <tr>
+
+    <tr style="background-color: #ffffff;">
       <td>Dizionario della Lingua Italiana</td>
       <td>978-0000000002</td>
       <td>000</td>
       <td>Yes</td>
     </tr>
+
     <tr style="background-color: #f9f9f9;">
       <td>Atlante del Mondo</td>
       <td>978-0000000003</td>
       <td>000</td>
       <td>Yes</td>
     </tr>
-    <tr>
+
+    <tr style="background-color: #ffffff;">
       <td>Manuale di Biblioteconomia</td>
       <td>978-0000000004</td>
       <td>010</td>
       <td>Yes</td>
     </tr>
+
     <tr style="background-color: #f9f9f9;">
       <td>Guida ai Libri Rari</td>
       <td>978-0000000005</td>
       <td>020</td>
       <td>Yes</td>
     </tr>
-    <tr>
+
+    <tr style="background-color: #ffffff;">
       <td>Storia della Scrittura</td>
       <td>978-0000000006</td>
       <td>030</td>
       <td>Yes</td>
     </tr>
+
     <tr style="background-color: #f9f9f9;">
       <td>Grandi Enciclopedie</td>
       <td>978-0000000007</td>
       <td>030</td>
       <td>Yes</td>
     </tr>
-    <tr>
+
+    <tr style="background-color: #ffffff;">
       <td>Introduzione alla Bibliografia</td>
       <td>978-0000000008</td>
       <td>010</td>
       <td>Yes</td>
     </tr>
+
     <tr style="background-color: #f9f9f9;">
       <td>Catalogazione e Archiviazione</td>
       <td>978-0000000009</td>
       <td>020</td>
       <td>Yes</td>
     </tr>
-    <tr>
+
+    <tr style="background-color: #ffffff;">
       <td>Giornalismo e Media</td>
       <td>978-0000000010</td>
       <td>050</td>
       <td>Yes</td>
     </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Enciclopedia della Conoscenza</td>
+      <td>978-0000000011</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Dizionario Enciclopedico</td>
+      <td>978-0000000012</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida ai Testi Antichi</td>
+      <td>978-0000000013</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Manuale di Ricerca Bibliografica</td>
+      <td>978-0000000014</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Enciclopedia Storica</td>
+      <td>978-0000000015</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Enciclopedia del Sapere</td>
+      <td>978-0000000101</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Manuale di Archivistica</td>
+      <td>978-0000000102</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>La Biblioteca del Mondo</td>
+      <td>978-0000000103</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Bibliografia Universale</td>
+      <td>978-0000000104</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Dizionario Filosofico</td>
+      <td>978-0000000105</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Giornalismo Investigativo</td>
+      <td>978-0000000106</td>
+      <td>050</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Atlante del XX Secolo</td>
+      <td>978-0000000107</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Enciclopedia della Scienza</td>
+      <td>978-0000000108</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Le Grandi Biografie</td>
+      <td>978-0000000109</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Manuale di Documentazione</td>
+      <td>978-0000000110</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Guida Definitiva all’Inutilità</td>
+      <td>978-0000000201</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Dizionario delle Parole Inventate</td>
+      <td>978-0000000202</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>L’Enciclopedia delle Cose che Non Sai di Non Sapere</td>
+      <td>978-0000000203</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Manuale di Biblioteconomia per Chi Non Legge</td>
+      <td>978-0000000204</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Atlante delle Terre che Non Esistono</td>
+      <td>978-0000000205</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Come Nascondersi in una Biblioteca</td>
+      <td>978-0000000206</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Le 1000 Cose che Nessuno Ti Chiederà Mai</td>
+      <td>978-0000000207</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Giornalismo Spazzatura per Esperti</td>
+      <td>978-0000000208</td>
+      <td>050</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Scrivere un Libro Senza Scriverlo</td>
+      <td>978-0000000209</td>
+      <td>020</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida agli Errori di Stampa Memorabili</td>
+      <td>978-0000000210</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Le Follie dell'Imperatore</td>
+      <td>978-00000432</td>
+      <td>950</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La madre di tutti</td>
+      <td>978-002345611</td>
+      <td>920</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia della Filosofia</td>
+      <td>978-1000000001</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Metafisica e Realtà</td>
+      <td>978-1000000002</td>
+      <td>110</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>La Conoscenza Scientifica</td>
+      <td>978-1000000003</td>
+      <td>120</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Psicologia del Comportamento</td>
+      <td>978-1000000004</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Logica e Argomentazione</td>
+      <td>978-1000000005</td>
+      <td>160</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Filosofia Antica</td>
+      <td>978-1000000006</td>
+      <td>180</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Pensiero Critico e Ragionamento</td>
+      <td>978-1000000007</td>
+      <td>160</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La Mente Umana</td>
+      <td>978-1000000008</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filosofia Orientale</td>
+      <td>978-1000000009</td>
+      <td>180</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Etica e Morale</td>
+      <td>978-1000000010</td>
+      <td>170</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>La Filosofia Contemporanea</td>
+      <td>978-1000000011</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Letture di Metafisica</td>
+      <td>978-1000000012</td>
+      <td>110</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Psicologia del Pensiero</td>
+      <td>978-1000000013</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Logica Matematica</td>
+      <td>978-1000000014</td>
+      <td>160</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>I Grandi Filosofi</td>
+      <td>978-1000000015</td>
+      <td>180</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Pensiero Umano</td>
+      <td>978-1000000101</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Metafisica per Tutti</td>
+      <td>978-1000000102</td>
+      <td>110</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Filosofia e Logica</td>
+      <td>978-1000000103</td>
+      <td>120</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Psicologia Clinica</td>
+      <td>978-1000000104</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Etica e Società</td>
+      <td>978-1000000105</td>
+      <td>170</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filosofia Orientale Moderna</td>
+      <td>978-1000000106</td>
+      <td>180</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Psicanalisi e Neuroscienze</td>
+      <td>978-1000000107</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filosofia Analitica</td>
+      <td>978-1000000108</td>
+      <td>160</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Significato della Vita</td>
+      <td>978-1000000109</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia della Mente</td>
+      <td>978-1000000110</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La Profonda Filosofia del Divano</td>
+      <td>978-1000000201</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Zen e l’Arte di Perdere Tempo</td>
+      <td>978-1000000202</td>
+      <td>110</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Logica e il Dilemma del Biscotto Spezzato</td>
+      <td>978-1000000203</td>
+      <td>160</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Psicologia del Pollo in Fuga</td>
+      <td>978-1000000204</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Filosofia della Pigrizia Estrema</td>
+      <td>978-1000000205</td>
+      <td>170</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Il Pensiero Esistenziale del Gatto</td>
+      <td>978-1000000206</td>
+      <td>180</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Paradossi per Confondersi Meglio</td>
+      <td>978-1000000207</td>
+      <td>120</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Convincersi di Avere Sempre Ragione</td>
+      <td>978-1000000208</td>
+      <td>150</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Vita secondo i Cartoni Animati</td>
+      <td>978-1000000209</td>
+      <td>100</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Metafisica del Bucato</td>
+      <td>978-1000000210</td>
+      <td>110</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Religioni del Mondo</td>
+      <td>978-2000000001</td>
+      <td>200</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filosofia della Religione</td>
+      <td>978-2000000002</td>
+      <td>210</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Cristianesimo e la Bibbia</td>
+      <td>978-2000000003</td>
+      <td>220</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia del Cristianesimo</td>
+      <td>978-2000000004</td>
+      <td>270</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Islam: Storia e Dottrina</td>
+      <td>978-2000000005</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Religioni Orientali</td>
+      <td>978-2000000006</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Buddhismo</td>
+      <td>978-2000000007</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Ebraismo e Torah</td>
+      <td>978-2000000008</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Teologia Contemporanea</td>
+      <td>978-2000000009</td>
+      <td>260</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Miti e Leggende Religiose</td>
+      <td>978-2000000010</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Le Religioni Preistoriche</td>
+      <td>978-2000000011</td>
+      <td>200</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filosofia della Spiritualità</td>
+      <td>978-2000000012</td>
+      <td>210</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Islam: Tradizione e Storia</td>
+      <td>978-2000000013</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>L’Ebraismo Oggi</td>
+      <td>978-2000000014</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Mitologia Cristiana</td>
+      <td>978-2000000015</td>
+      <td>270</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>La Religione nell’Antichità</td>
+      <td>978-2000000101</td>
+      <td>200</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Miti e Leggende Bibliche</td>
+      <td>978-2000000102</td>
+      <td>220</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Spiritualità e Filosofia</td>
+      <td>978-2000000103</td>
+      <td>210</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Buddismo Zen</td>
+      <td>978-2000000104</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Teologia e Dottrina Cristiana</td>
+      <td>978-2000000105</td>
+      <td>230</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>L’Islam tra Storia e Fede</td>
+      <td>978-2000000106</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Ebraismo: Tradizioni e Cultura</td>
+      <td>978-2000000107</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Mitologia Norrena</td>
+      <td>978-2000000108</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Cristianesimo Primitivo</td>
+      <td>978-2000000109</td>
+      <td>270</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La Storia delle Religioni</td>
+      <td>978-2000000110</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Preghiere per Trovare il Telecomando</td>
+      <td>978-2000000201</td>
+      <td>200</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Teologia dei Meme</td>
+      <td>978-2000000202</td>
+      <td>210</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Buddismo per Chi Non ha Tempo di Meditare</td>
+      <td>978-2000000203</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Come Vendere la Propria Anima Senza Rimorsi</td>
+      <td>978-2000000204</td>
+      <td>270</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Il Cristianesimo Spiegato ai Polli</td>
+      <td>978-2000000205</td>
+      <td>220</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Ebraismo e la Festa del Cibo Gratis</td>
+      <td>978-2000000206</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Mitologia delle Divinità Pigre</td>
+      <td>978-2000000207</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Islam: Le 100 Domande che Nessuno ha Mai Fatto</td>
+      <td>978-2000000208</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Manuale per Santi Pigri</td>
+      <td>978-2000000209</td>
+      <td>260</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Vangelo secondo il Gatto</td>
+      <td>978-2000000210</td>
+      <td>290</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scienze Sociali e Politiche</td>
+      <td>978-3000000001</td>
+      <td>300</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Introduzione alla Statistica</td>
+      <td>978-3000000002</td>
+      <td>310</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Fondamenti di Economia</td>
+      <td>978-3000000003</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Il Sistema Giuridico</td>
+      <td>978-3000000004</td>
+      <td>340</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Sociologia della Comunicazione</td>
+      <td>978-3000000005</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Antropologia Culturale</td>
+      <td>978-3000000006</td>
+      <td>390</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Teorie Politiche</td>
+      <td>978-3000000007</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Psicologia Sociale</td>
+      <td>978-3000000008</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Globalizzazione e Società</td>
+      <td>978-3000000009</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Politica Internazionale</td>
+      <td>978-3000000010</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Statistica per le Scienze Sociali</td>
+      <td>978-3000000011</td>
+      <td>310</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Economia e Mercati Globali</td>
+      <td>978-3000000012</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Introduzione alla Politica</td>
+      <td>978-3000000013</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Sociologia Urbana</td>
+      <td>978-3000000014</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Geopolitica e Conflitti</td>
+      <td>978-3000000015</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Sociologia e Cultura</td>
+      <td>978-3000000101</td>
+      <td>300</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Geopolitica Moderna</td>
+      <td>978-3000000102</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Economia e Mercati Finanziari</td>
+      <td>978-3000000103</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Legislazione e Diritto Civile</td>
+      <td>978-3000000104</td>
+      <td>340</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Storia del Pensiero Politico</td>
+      <td>978-3000000105</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Psicologia Sociale</td>
+      <td>978-3000000106</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Statistiche e Previsioni</td>
+      <td>978-3000000107</td>
+      <td>310</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Lavoro e Diritti</td>
+      <td>978-3000000108</td>
+      <td>350</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Globalizzazione e Sviluppo</td>
+      <td>978-3000000109</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Società e Innovazione</td>
+      <td>978-3000000110</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Come Evitare la Gente senza Offenderli</td>
+      <td>978-3000000201</td>
+      <td>300</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Il Grande Manuale delle Scuse Perfette</td>
+      <td>978-3000000202</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Politica per Chi non Vuole Averci a Che Fare</td>
+      <td>978-3000000203</td>
+      <td>320</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Economia del Baratto di Meme</td>
+      <td>978-3000000204</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Diritto e Come Non Essere Arrestati</td>
+      <td>978-3000000205</td>
+      <td>340</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Sociologia degli Influencer Falliti</td>
+      <td>978-3000000206</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Manuale di Sopravvivenza ai Pranzi di Famiglia</td>
+      <td>978-3000000207</td>
+      <td>390</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Fare Soldi Senza Lavorare</td>
+      <td>978-3000000208</td>
+      <td>330</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Psicologia dell’Ordine Casuale</td>
+      <td>978-3000000209</td>
+      <td>360</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Introduzione alla Pigrizia Sociale</td>
+      <td>978-3000000210</td>
+      <td>300</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Introduzione alla Linguistica</td>
+      <td>978-4000000001</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Grammatica della Lingua Inglese</td>
+      <td>978-4000000002</td>
+      <td>420</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Lingua Tedesca</td>
+      <td>978-4000000003</td>
+      <td>430</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Letteratura Francese</td>
+      <td>978-4000000004</td>
+      <td>440</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Dizionario Italiano</td>
+      <td>978-4000000005</td>
+      <td>450</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scrittura Creativa</td>
+      <td>978-4000000006</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Traduzione e Interpretariato</td>
+      <td>978-4000000007</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Filologia Romana</td>
+      <td>978-4000000008</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Dialetti Italiani</td>
+      <td>978-4000000009</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Analisi del Testo</td>
+      <td>978-4000000010</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Analisi Morfologica e Sintattica</td>
+      <td>978-4000000011</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Fonologia e Fonetica</td>
+      <td>978-4000000012</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Traduzione Letteraria</td>
+      <td>978-4000000013</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia della Lingua Italiana</td>
+      <td>978-4000000014</td>
+      <td>450</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Poesia</td>
+      <td>978-4000000015</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Linguistica Teorica</td>
+      <td>978-4000000101</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Fonetica e Dialettologia</td>
+      <td>978-4000000102</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia della Lingua Inglese</td>
+      <td>978-4000000103</td>
+      <td>420</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Lessicografia e Semantica</td>
+      <td>978-4000000104</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Grammatica Avanzata</td>
+      <td>978-4000000105</td>
+      <td>450</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Linguaggi Artificiali</td>
+      <td>978-4000000106</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scrittura e Comunicazione</td>
+      <td>978-4000000107</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Traduzione Tecnica</td>
+      <td>978-4000000108</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Analisi del Discorso</td>
+      <td>978-4000000109</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Lingue Romanze</td>
+      <td>978-4000000110</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Dizionario delle Parole Inutili</td>
+      <td>978-4000000201</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>L’Arte di Parlare senza Dire Nulla</td>
+      <td>978-4000000202</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Inventare un Nuovo Dialetto</td>
+      <td>978-4000000203</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Scrittura Brutta</td>
+      <td>978-4000000204</td>
+      <td>450</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Lingue Aliene per Principianti</td>
+      <td>978-4000000205</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Analisi Grammaticale delle Parolacce</td>
+      <td>978-4000000206</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Imparare il Latino in 3 Minuti (Impossibile)</td>
+      <td>978-4000000207</td>
+      <td>490</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Traduzioni Letterarie dei Meme</td>
+      <td>978-4000000208</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Parlare in Inglese con 5 Parole</td>
+      <td>978-4000000209</td>
+      <td>420</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Linguistica per Chi non sa Leggere</td>
+      <td>978-4000000210</td>
+      <td>400</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scienze della Natura</td>
+      <td>978-5000000001</td>
+      <td>500</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Elementi di Matematica</td>
+      <td>978-5000000002</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Introduzione Astronomia</td>
+      <td>978-5000000003</td>
+      <td>520</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Fisica per Principianti</td>
+      <td>978-5000000004</td>
+      <td>530</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Chimica Organica</td>
+      <td>978-5000000005</td>
+      <td>540</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Biologia e Evoluzione</td>
+      <td>978-5000000006</td>
+      <td>570</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Geologia e Minerali</td>
+      <td>978-5000000007</td>
+      <td>550</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Zoologia Generale</td>
+      <td>978-5000000008</td>
+      <td>590</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scienza dell Ambiente</td>
+      <td>978-5000000009</td>
+      <td>550</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Piante e Botanica</td>
+      <td>978-5000000010</td>
+      <td>580</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Matematica per la Fisica</td>
+      <td>978-5000000011</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Introduzione alla Statistica Bayesiana</td>
+      <td>978-5000000012</td>
+      <td>310</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>L’Universo e i Buchi Neri</td>
+      <td>978-5000000013</td>
+      <td>520</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Zoologia Applicata</td>
+      <td>978-5000000014</td>
+      <td>590</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Teoria dei Numeri</td>
+      <td>978-5000000015</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Fisica Quantistica</td>
+      <td>978-5000000101</td>
+      <td>530</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Matematica Computazionale</td>
+      <td>978-5000000102</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Chimica Inorganica</td>
+      <td>978-5000000103</td>
+      <td>540</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Biotecnologie e Genetica</td>
+      <td>978-5000000104</td>
+      <td>570</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Scienze della Terra</td>
+      <td>978-5000000105</td>
+      <td>550</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Astronomia e Astrofisica</td>
+      <td>978-5000000106</td>
+      <td>520</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Evoluzione e Biodiversità</td>
+      <td>978-5000000107</td>
+      <td>590</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Fisica delle Particelle</td>
+      <td>978-5000000108</td>
+      <td>530</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Teorie Cosmologiche</td>
+      <td>978-5000000109</td>
+      <td>520</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Botanica e Micologia</td>
+      <td>978-5000000110</td>
+      <td>580</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Matematica per Chi Odia i Numeri</td>
+      <td>978-5000000201</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Fisica Quantistica per Cani</td>
+      <td>978-5000000202</td>
+      <td>530</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La Biologia della Pigrizia</td>
+      <td>978-5000000203</td>
+      <td>570</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Farsi Amico un Atomo</td>
+      <td>978-5000000204</td>
+      <td>540</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Astronomia per Chi Dorme Troppo</td>
+      <td>978-5000000205</td>
+      <td>520</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Teoria della Relatività del Tempo Perso</td>
+      <td>978-5000000206</td>
+      <td>530</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>La Botanica del Cactus da Scrivania</td>
+      <td>978-5000000207</td>
+      <td>580</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Guida alla Scienza del Nulla</td>
+      <td>978-5000000208</td>
+      <td>500</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Chimica delle Sostanze Immaginarie</td>
+      <td>978-5000000209</td>
+      <td>540</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Come Calcolare Senza Fare Calcoli</td>
+      <td>978-5000000210</td>
+      <td>510</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Introduzione alla Tecnologia</td>
+      <td>978-6000000001</td>
+      <td>600</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Manuale di Ingegneria</td>
+      <td>978-6000000002</td>
+      <td>620</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Fondamenti di Medicina</td>
+      <td>978-6000000003</td>
+      <td>610</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scienze Alimentari</td>
+      <td>978-6000000004</td>
+      <td>640</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Robotica e Automazione</td>
+      <td>978-6000000005</td>
+      <td>670</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Nanotecnologie</td>
+      <td>978-6000000006</td>
+      <td>660</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Bioinformatica</td>
+      <td>978-6000000007</td>
+      <td>610</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Intelligenza Artificiale</td>
+      <td>978-6000000008</td>
+      <td>600</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Cybersecurity e Privacy</td>
+      <td>978-6000000009</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Blockchain e FinTech</td>
+      <td>978-6000000010</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Blockchain e il Futuro del Web</td>
+      <td>978-6000000011</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Neuroscienze e Tecnologia</td>
+      <td>978-6000000012</td>
+      <td>610</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Robotica Avanzata</td>
+      <td>978-6000000013</td>
+      <td>620</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Nanotecnologie e Materiali Innovativi</td>
+      <td>978-6000000014</td>
+      <td>660</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida alla Medicina Digitale</td>
+      <td>978-6000000015</td>
+      <td>610</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Robotica e IA</td>
+      <td>978-6000000101</td>
+      <td>620</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Medicina del Futuro</td>
+      <td>978-6000000102</td>
+      <td>610</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scienza dei Materiali</td>
+      <td>978-6000000103</td>
+      <td>660</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Blockchain e Sicurezza Informatica</td>
+      <td>978-6000000104</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Sistemi di Produzione Industriale</td>
+      <td>978-6000000105</td>
+      <td>670</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Big Data e AI</td>
+      <td>978-6000000106</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Automazione e Controllo</td>
+      <td>978-6000000107</td>
+      <td>620</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Nanotecnologie e Biomedicina</td>
+      <td>978-6000000108</td>
+      <td>660</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Ingegneria dei Sistemi</td>
+      <td>978-6000000109</td>
+      <td>620</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Tecnologie dell’Informazione</td>
+      <td>978-6000000110</td>
+      <td>650</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Guida alla Fotografia Digitale</td>
+      <td>978-7000000011</td>
+      <td>770</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Cinema e Montaggio</td>
+      <td>978-7000000012</td>
+      <td>790</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia del Jazz</td>
+      <td>978-7000000013</td>
+      <td>780</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Tecniche di Pittura Moderna</td>
+      <td>978-7000000014</td>
+      <td>750</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scultura Contemporanea</td>
+      <td>978-7000000015</td>
+      <td>730</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Pittura e Disegno</td>
+      <td>978-7000000101</td>
+      <td>750</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Cinema e Regia</td>
+      <td>978-7000000102</td>
+      <td>790</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Storia della Musica</td>
+      <td>978-7000000103</td>
+      <td>780</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Architettura Moderna</td>
+      <td>978-7000000104</td>
+      <td>720</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Fotografia e Postproduzione</td>
+      <td>978-7000000105</td>
+      <td>770</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Scultura e Arte Contemporanea</td>
+      <td>978-7000000106</td>
+      <td>730</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Danza e Coreografia</td>
+      <td>978-7000000107</td>
+      <td>700</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Arti Digitali</td>
+      <td>978-7000000108</td>
+      <td>760</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Teatro e Performance</td>
+      <td>978-7000000109</td>
+      <td>790</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Arti Grafiche e Pubblicità</td>
+      <td>978-7000000110</td>
+      <td>760</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>I Classici della Letteratura Inglese</td>
+      <td>978-8000000011</td>
+      <td>820</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Romanzi Storici</td>
+      <td>978-8000000012</td>
+      <td>830</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Teatro Contemporaneo</td>
+      <td>978-8000000013</td>
+      <td>850</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Antologie di Poesia</td>
+      <td>978-8000000014</td>
+      <td>800</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Scrittura Creativa: Tecniche e Stili</td>
+      <td>978-8000000015</td>
+      <td>800</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Storia delle Guerre Mondiali</td>
+      <td>978-9000000011</td>
+      <td>900</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Geografia Economica</td>
+      <td>978-9000000012</td>
+      <td>910</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Il Rinascimento Italiano</td>
+      <td>978-9000000013</td>
+      <td>940</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+      <td>Storia dell’Antica Roma</td>
+      <td>978-9000000014</td>
+      <td>930</td>
+      <td>Yes</td>
+    </tr>
+
+    <tr style="background-color: #ffffff;">
+      <td>Viaggi ed Esplorazioni</td>
+      <td>978-9000000015</td>
+      <td>910</td>
+      <td>Yes</td>
+    </tr>
+
   </tbody>
 </table>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
