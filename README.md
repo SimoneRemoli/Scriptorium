@@ -728,6 +728,71 @@ This section illustrates the logical schema of the system by presenting represen
   </p>
 </div>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">Copy Number</th>
+      <th style="text-align: center;">Status</th>
+      <th style="text-align: center;">ISBN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000001</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000002</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td>
+      <td>In prestito altra biblioteca</td>
+      <td>978-0000000003</td>
+    </tr>
+    <tr style="background-color: #ff0000; text-align: center;">
+      <td>1</td>
+      <td>In prestito utente</td>
+      <td>978-0000000004</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000005</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000006</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000007</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td>
+      <td>In prestito altra biblioteca</td>
+      <td>978-0000000008</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000009</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td>
+      <td>Disponibile</td>
+      <td>978-0000000010</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
