@@ -188,10 +188,7 @@ This means:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Java][Java-logo]][Java-url]
-* [![JDBC][JDBC-logo]][JDBC-url]
-* [![DBeaver][DBeaver-logo]][DBeaver-url]
-* [![IntelliJ][IntelliJ-logo]][IntelliJ-url]
+<p align="center"> <a href="https://www.oracle.com/java/" target="_blank"> <img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png" alt="Java" title="Java" width="60" style="border-radius: 50%;"/> </a> &nbsp;&nbsp; <a href="https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/" target="_blank"> <img src="https://static.thenounproject.com/png/1883802-200.png" alt="JDBC" title="JDBC" width="60" style="border-radius: 50%;"/> </a> &nbsp;&nbsp; <a href="https://dbeaver.io/" target="_blank"> <img src="https://dbeaver.com/img/dbeaver-head.png" alt="DBeaver" title="DBeaver" width="60" style="border-radius: 50%;"/> </a> &nbsp;&nbsp; <a href="https://www.jetbrains.com/idea/" target="_blank"> <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg" alt="IntelliJ IDEA" title="IntelliJ IDEA" width="60" style="border-radius: 50%; background: #000; padding: 5px;"/> </a> </p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
