@@ -1003,7 +1003,66 @@ It is now possible to clearly observe the external loan that has been recorded.
   </p>
 </div>
 
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    The book requested by <strong>Emilio</strong>, identified by ISBN <strong>978-0000000011</strong>,
+    is currently available at the <strong>Academic Library of Pisa</strong>, which holds a total of
+    <strong>9 copies</strong>.
+  </p>
+</div>
 
+
+<img width="100" alt="Screenshot 2025-03-22 alle 13 58 53" src="https://github.com/user-attachments/assets/75905560-d965-49f1-b850-47e52915f208" />
+
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    After the book has been explicitly requested, the corresponding table is updated:
+    the number of available copies is reduced from <strong>9</strong> to <strong>8</strong>,
+    and the loan transaction is duly recorded in the system.
+  </p>
+</div>
+
+<img width="100" alt="Screenshot 2025-03-22 alle 14 00 51" src="https://github.com/user-attachments/assets/0088c0ec-9082-4068-983c-c609ec90800b" />
+
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    The table below records an interlibrary loan successfully initiated by the user <strong>Emilio Rossi</strong>.
+    The book, identified by ISBN <strong>978-0000000011</strong>, was borrowed from the <strong>Academic Library of Pisa</strong>.
+  </p>
+  <p>
+    The transaction includes the user's full identification details and the scheduled loan period,
+    which spans from <strong>March 22, 2025</strong> to <strong>May 22, 2025</strong>.
+  </p>
+  <p>
+    This operation exemplifies the system's ability to process and document external loan requests across library institutions.
+  </p>
+</div>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th>ISBN</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Date of Birth</th>
+      <th>Library Name</th>
+      <th>City</th>
+      <th>Loan Start Date</th>
+      <th>Loan End Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>978-0000000011</td>
+      <td>Emilio</td>
+      <td>Rossi</td>
+      <td>2004-05-06</td>
+      <td>Biblioteca Accademica</td>
+      <td>Pisa</td>
+      <td>2025-03-22</td>
+      <td>2025-05-22</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
