@@ -97,25 +97,88 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+<img src="https://github.com/user-attachments/assets/782918b1-8fec-46cc-a392-d0c4f37fdbac" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-Size Limit is a performance budget tool for JavaScript. It checks every commit
-on CI, calculates the real cost of your JS for end-users and throws an error
-if the cost exceeds the limit.
+## 📘 Project Overview
 
-* **ES modules** and **tree-shaking** support.
-* Add Size Limit to **GitHub Actions**, **Circle CI** or another CI system
-  to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-  Additionally, you can [customize time plugin] via config
-  for every check with network speed, latency and so on.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+A library provides a book reservation service for its registered users.  
+This project aims to develop an **Information Management System** for such a library, which is characterized by:
+
+- its **address**  
+- a **telephone number**  
+- the **name of the manager**  
+- and its **weekly opening hours**
+
+---
+
+## 📚 Book Management
+
+The system manages a collection of **books**, each of which may have **multiple available copies**.  
+Every copy is associated with a **status** that can either be:
+
+- `Available`
+- `On loan`
+
+Books are physically organized by **shelf and position**, which the system provides to staff when a copy is available.
+
+---
+
+## 👥 User Registration
+
+Users can **register** by providing their **personal details** along with **any number of contact methods**  
+(e.g., phone, mobile, email). Each user must specify their **preferred communication method**  
+for being contacted by the library staff.
+
+---
+
+## 📖 Book Loans
+
+When issuing a loan, librarians can check the **availability** of book copies:
+
+- If a copy is available, the system shows the **shelf and position** for retrieval.
+- If no copies are available in the local library, the system allows librarians to **search the availability**
+  in other libraries within the **partnered network** and **request an interlibrary transfer**.
+
+Likewise, the library can **receive transfer requests** from other institutions in the network.  
+In such cases, the copy is marked as:
+
+> `Loaned to another library`
+
+The system also stores information about the **destination library**.
+
+📞 **Interlibrary transfers** are handled by direct phone communication between librarians.
+
+---
+
+## ⏳ Loan Duration
+
+Upon receiving a copy, users may choose to **retain it for consultation** for a period of:
+
+- 1 month  
+- 2 months  
+- or 3 months
+
+---
+
+## 📄 Reporting Tools
+
+Librarians can generate **reports** to track:
+
+- All books currently **on loan**
+- The **users** who currently have those books
+- The **contact details** for each user, which can be used to send **return reminders**
+
+---
+
+## ❌ Book Deactivation
+
+If a book has **not been borrowed for the last 10 years**, it is **deactivated** by the **circuit administrators**.  
+This means:
+
+- The book **can no longer be borrowed**
+- Its **record remains in the system** for historical purposes
+- Any **ongoing loans** remain valid until the copy is returned
 
 <p align="center">
   <img src="./img/example.png" alt="Size Limit CLI" width="738">
