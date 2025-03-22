@@ -1012,7 +1012,7 @@ It is now possible to clearly observe the external loan that has been recorded.
 </div>
 
 
-<img width="100" alt="Screenshot 2025-03-22 alle 13 58 53" src="https://github.com/user-attachments/assets/75905560-d965-49f1-b850-47e52915f208" />
+<img width="350" alt="Screenshot 2025-03-22 alle 13 58 53" src="https://github.com/user-attachments/assets/75905560-d965-49f1-b850-47e52915f208" />
 
 <div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
   <p>
@@ -1022,7 +1022,7 @@ It is now possible to clearly observe the external loan that has been recorded.
   </p>
 </div>
 
-<img width="100" alt="Screenshot 2025-03-22 alle 14 00 51" src="https://github.com/user-attachments/assets/0088c0ec-9082-4068-983c-c609ec90800b" />
+<img width="350" alt="Screenshot 2025-03-22 alle 14 00 51" src="https://github.com/user-attachments/assets/0088c0ec-9082-4068-983c-c609ec90800b" />
 
 <div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
   <p>
