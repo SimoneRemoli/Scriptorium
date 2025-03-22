@@ -3,6 +3,24 @@ Scriptorium is a Database Systems project dedicated to managing a library. Just 
 ![logo-color](https://github.com/user-attachments/assets/605cf9c8-5feb-4deb-b328-a76454c79ac4)
 
 
+<h1 align="center">
+  Dijkstra's algorithm
+  <img src="https://graphicmaths.com/img/computer-science/graph-theory/dijkstras-algorithm/graph.png" width="30px"/>
+</h1>
+I created a version of the shortest paths algorithm using the DOT library, which is a filter for drawing directed graphs.
+The program constructs the graph in real time and associates the weight with each edge.
+
+<p align="center"> </p>
+
+
+<p align="center"><img src= "https://cdn.pixabay.com/photo/2018/07/14/11/32/network-3537400_960_720.png" alt="MaxKB" width="300" /></p>
+<h3 align="center">Simone Remoli</h3>
+<p align="center">
+  <a href="https://www.gnu.org/licenses/gpl-3.0.html#license-text"><img src="https://img.shields.io/github/license/1Panel-dev/maxkb?color=%231890FF" alt="License: GPL v3"></a> 
+</p>
+<hr/>
+
+
 
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
