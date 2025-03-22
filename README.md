@@ -201,8 +201,6 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
 
 <div style="display: flex; justify-content: flex-start; gap: 40px; align-items: flex-start;">
 
-  <!-- 📚 LEFT - Book Table -->
-  <div style="flex: 1;">
 <table align="center" border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
   <thead style="background-color: #D0E3FA;">
     <tr>
@@ -335,9 +333,9 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
     </tr>
   </tbody>
 </table>
-  </div>
-  <div style="flex: 1;">
-    <!-- Inserisci qui la seconda tabella o qualsiasi altro contenuto -->
+    
+    <br>
+    
     <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
   <thead style="background-color: #D0E3FA;">
     <tr>
@@ -412,8 +410,8 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
 
 
 
+
     
-  </div>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
