@@ -479,6 +479,81 @@ This section illustrates the logical schema of the system by presenting represen
   </tbody>
 </table>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">Shelf Code</th>
+      <th style="text-align: center;">Shelf Name</th>
+      <th style="text-align: center;">Category Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td><td>Scaffale Generale 1</td><td>000</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>2</td><td>Scaffale Bibliografie</td><td>010</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>3</td><td>Scaffale Biblioteconomia</td><td>020</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>4</td><td>Scaffale Enciclopedie</td><td>030</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>5</td><td>Scaffale Giornalismo</td><td>050</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>6</td><td>Scaffale Organizzazioni</td><td>060</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>7</td><td>Scaffale Media e Editoria</td><td>070</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>8</td><td>Scaffale Citazioni</td><td>080</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>9</td><td>Scaffale Manoscritti</td><td>090</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>10</td><td>Scaffale Filosofia 1</td><td>100</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>11</td><td>Scaffale Metafisica</td><td>110</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>12</td><td>Scaffale Epistemologia</td><td>120</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>13</td><td>Scaffale Parapsicologia</td><td>130</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>14</td><td>Scaffale Filosofie Specifiche</td><td>140</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>15</td><td>Scaffale Psicologia</td><td>150</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>16</td><td>Scaffale Logica</td><td>160</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>17</td><td>Scaffale Etica</td><td>170</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>18</td><td>Scaffale Filosofia Antica</td><td>180</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>19</td><td>Scaffale Filosofia Moderna</td><td>190</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>20</td><td>Scaffale Religione</td><td>200</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
