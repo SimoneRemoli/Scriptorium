@@ -627,6 +627,82 @@ This section illustrates the logical schema of the system by presenting represen
   </tbody>
 </table>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">ISBN</th>
+      <th style="text-align: center;">Library</th>
+      <th style="text-align: center;">City</th>
+      <th style="text-align: center;">Copies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-0000000002</td><td>Biblioteca Storica</td><td>Venezia</td><td>5</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-0000000008</td><td>Biblioteca Storica</td><td>Venezia</td><td>3</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-0000000011</td><td>Biblioteca Accademica</td><td>Pisa</td><td>9</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-0000000012</td><td>Biblioteca Popolare</td><td>Palermo</td><td>1</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-0000000102</td><td>Biblioteca Comunale</td><td>Firenze</td><td>1</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-0000000108</td><td>Biblioteca Centrale</td><td>Roma</td><td>2</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-0000000109</td><td>Biblioteca Civica</td><td>Torino</td><td>2</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-0000000201</td><td>Biblioteca Civica</td><td>Torino</td><td>2</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-1000000002</td><td>Biblioteca Centrale</td><td>Roma</td><td>4</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-1000000005</td><td>Biblioteca Universitaria</td><td>Bologna</td><td>4</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-1000000009</td><td>Biblioteca Nazionale</td><td>Milano</td><td>5</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-1000000015</td><td>Biblioteca Accademica</td><td>Pisa</td><td>4</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-1000000104</td><td>Biblioteca Comunale</td><td>Firenze</td><td>4</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-1000000106</td><td>Biblioteca Popolare</td><td>Palermo</td><td>2</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-1000000204</td><td>Biblioteca Centrale</td><td>Roma</td><td>4</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-1000000206</td><td>Biblioteca Comunale</td><td>Firenze</td><td>2</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-1000000208</td><td>Biblioteca Civica</td><td>Torino</td><td>1</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-2000000008</td><td>Biblioteca Civica</td><td>Torino</td><td>1</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>978-2000000011</td><td>Biblioteca Popolare</td><td>Palermo</td><td>5</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>978-2000000013</td><td>Biblioteca Comunale</td><td>Firenze</td><td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
