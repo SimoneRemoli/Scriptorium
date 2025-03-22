@@ -199,6 +199,80 @@ The technologies listed below constitute the foundational stack employed in the 
 The following section illustrates practical examples of how the system may be utilized in real-world scenarios.
 Sample workflows, interface screenshots, and code snippets may be provided to demonstrate core functionalities and typical use cases.
 
+<table align="center" border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: left;">Title</th>
+      <th style="text-align: center;">ISBN</th>
+      <th style="text-align: center;">Category Code</th>
+      <th style="text-align: center;">Available</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9;">
+      <td>Enciclopedia Universale</td>
+      <td>978-0000000001</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Dizionario della Lingua Italiana</td>
+      <td>978-0000000002</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td>Atlante del Mondo</td>
+      <td>978-0000000003</td>
+      <td>000</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Manuale di Biblioteconomia</td>
+      <td>978-0000000004</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td>Guida ai Libri Rari</td>
+      <td>978-0000000005</td>
+      <td>020</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Storia della Scrittura</td>
+      <td>978-0000000006</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td>Grandi Enciclopedie</td>
+      <td>978-0000000007</td>
+      <td>030</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Introduzione alla Bibliografia</td>
+      <td>978-0000000008</td>
+      <td>010</td>
+      <td>Yes</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td>Catalogazione e Archiviazione</td>
+      <td>978-0000000009</td>
+      <td>020</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Giornalismo e Media</td>
+      <td>978-0000000010</td>
+      <td>050</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
