@@ -97,8 +97,29 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img src="https://ai.github.io/size-limit/logo.svg" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-[![Product Name Screen Shot][https://github.com/user-attachments/assets/03898e81-151e-4e61-9544-4b1a6cecccae]](https://github.com/user-attachments/assets/03898e81-151e-4e61-9544-4b1a6cecccae)
+Size Limit is a performance budget tool for JavaScript. It checks every commit
+on CI, calculates the real cost of your JS for end-users and throws an error
+if the cost exceeds the limit.
+
+* **ES modules** and **tree-shaking** support.
+* Add Size Limit to **GitHub Actions**, **Circle CI** or another CI system
+  to know if a pull request adds a massive dependency.
+* **Modular** to fit different use cases: big JS applications
+  that use their own bundler or small npm libraries with many files.
+* Can calculate **the time** it would take a browser
+  to download and **execute** your JS. Time is a much more accurate
+  and understandable metric compared to the size in bytes.
+  Additionally, you can [customize time plugin] via config
+  for every check with network speed, latency and so on.
+* Calculations include **all dependencies and polyfills**
+  used in your JS.
+
+<p align="center">
+  <img src="./img/example.png" alt="Size Limit CLI" width="738">
+</p>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
