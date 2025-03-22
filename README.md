@@ -53,10 +53,10 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
     <img src="https://github.com/user-attachments/assets/85461217-bc57-4664-b7b7-08affee891c9" alt="Logo" width="250" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Organize Your Library</h3>
 
   <p align="center">
-    Bridging medieval wisdom and digital knowledge
+    Bridging medieval wisdom and digital knowledge.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
