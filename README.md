@@ -407,6 +407,80 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
   </tbody>
 </table>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">Category Code</th>
+      <th style="text-align: center;">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>000</td><td>Opere generali</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>010</td><td>Bibliografia</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>020</td><td>Scienze dell’informazione e biblioteconomia</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>030</td><td>Enciclopedie e libri di riferimento</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>050</td><td>Periodici e giornalismo</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>060</td><td>Organizzazioni e museologia</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>070</td><td>Giornalismo, editoria e media</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>080</td><td>Citazioni e antologie</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>090</td><td>Manoscritti e libri rari</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>100</td><td>Filosofia</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>110</td><td>Metafisica</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>120</td><td>Epistemologia, causalità e cambiamento</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>130</td><td>Parapsicologia e occultismo</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>140</td><td>Scuole filosofiche specifiche</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>150</td><td>Psicologia</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>160</td><td>Logica</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>170</td><td>Etica</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>180</td><td>Filosofia antica, medievale e orientale</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>190</td><td>Filosofia moderna e occidentale</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>200</td><td>Religione</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
