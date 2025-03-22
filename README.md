@@ -983,6 +983,26 @@ It is now possible to clearly observe the external loan that has been recorded.
   </tbody>
 </table>
 
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    If a user requests a copy of a book that is not available within the local library,
+    the system allows a request to be issued to an <strong>external library</strong>
+    that holds a copy of the desired book.
+  </p>
+</div>
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    Let us assume that the user <strong>Emilio</strong> intends to request a loan of the book titled
+    <em>"Enciclopedia della Conoscenza"</em>.
+  </p>
+  <p>
+    However, the book is currently <strong>unavailable</strong> within the library, as all copies have been exhausted.
+  </p>
+  <p>
+    Consequently, the system must identify external libraries where the book is available for loan.
+  </p>
+</div>
+
 
 
 
