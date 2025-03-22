@@ -962,6 +962,29 @@ This table indicates that the user Simone Remoli has requested a copy of the boo
   </tbody>
 </table>
 
+It is now possible to clearly observe the external loan that has been recorded.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">ISBN</th>
+      <th style="text-align: center;">Copy Number</th>
+      <th style="text-align: center;">Library Name</th>
+      <th style="text-align: center;">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>978-0000000103</td>
+      <td>1</td>
+      <td>Biblioteca Comunale</td>
+      <td>Firenze</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 
 
