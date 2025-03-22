@@ -1,14 +1,10 @@
-# Scriptorium
-Scriptorium is a Database Systems project dedicated to managing a library. Just as ancient scriptoria preserved and organized knowledge, this information system archives, manages, and optimizes access to books and bibliographic data in a modern and efficient way. 
-![logo-color](https://github.com/user-attachments/assets/605cf9c8-5feb-4deb-b328-a76454c79ac4)
 
 
 <h1 align="center">
-  Dijkstra's algorithm
+  Scriptorium
   <img src="https://graphicmaths.com/img/computer-science/graph-theory/dijkstras-algorithm/graph.png" width="30px"/>
 </h1>
-I created a version of the shortest paths algorithm using the DOT library, which is a filter for drawing directed graphs.
-The program constructs the graph in real time and associates the weight with each edge.
+Scriptorium is a Database Systems project dedicated to managing a library. Just as ancient scriptoria preserved and organized knowledge, this information system archives, manages, and optimizes access to books and bibliographic data in a modern and efficient way. 
 
 <p align="center"> </p>
 
