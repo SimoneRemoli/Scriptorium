@@ -703,6 +703,33 @@ This section illustrates the logical schema of the system by presenting represen
 </table>
 
 
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    Let us now assume a scenario in which a user requests to borrow a book that is available in the library.
+    A loan is initiated for a copy of the book titled
+    <strong><em>"Manuale di Biblioteconomia"</em></strong>.
+  </p>
+
+  <p>
+    The user, <strong>Simone Remoli</strong>, specifies his mobile number
+    <strong>(+39 3881211212)</strong> as his preferred contact method
+    <em>(note: this is not the author's actual phone number)</em>.
+  </p>
+
+  <p>
+    Consequently, the selected copy is registered in the system with the status
+    <strong style="color: #006400;">"On loan to user"</strong>,
+    which is duly reflected in the database records.
+  </p>
+
+  <p>
+    Furthermore, the user's name is recorded in the <strong>loan tracking table</strong>,
+    establishing a link between the borrowed copy and the requesting individual.
+  </p>
+</div>
+
+
+
 
 
 
