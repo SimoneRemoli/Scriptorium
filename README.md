@@ -878,6 +878,91 @@ This table indicates that the user Simone Remoli has requested a copy of the boo
   </p>
 </div>
 
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    Let us now assume that the <strong>Municipal Library of Florence</strong> requests a copy of the book entitled
+    <em>"La Biblioteca del Mondo"</em>, identified by ISBN <strong>978-0000000103</strong>.
+  </p>
+
+  <p>
+    As a result, the corresponding record in the <strong>Copy</strong> table must be updated.
+    The change in the copy's status is duly reflected in the system's database.
+  </p>
+</div>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">Copy Number</th>
+      <th style="text-align: center;">Status</th>
+      <th style="text-align: center;">ISBN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000001</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000002</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000003</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>In prestito utente</td><td>978-0000000004</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000005</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000006</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000007</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000008</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000009</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000010</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>In prestito utente</td><td>978-0000000011</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000012</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000013</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000014</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000015</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000101</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000102</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>In prestito altra biblioteca</td><td>978-0000000103</td>
+    </tr>
+    <tr style="background-color: #e8edff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000104</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>Disponibile</td><td>978-0000000105</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
