@@ -861,6 +861,24 @@ This table indicates that the user Simone Remoli has requested a copy of the boo
   </tbody>
 </table>
 
+<br>
+
+<div style="font-family: sans-serif; line-height: 1.6; font-size: 16px;">
+  <p>
+    <strong>Scriptorium</strong> is designed to simulate the reception of external events through a scheduled database trigger.
+  </p>
+
+  <p>
+    This mechanism selects a random <strong>ISBN</strong> from the pool of available copies and issues a request on behalf of a randomly chosen library.
+  </p>
+
+  <p>
+    Since the system also includes <strong>external libraries</strong> that may request books held internally,
+    this simulation reproduces the <em>interlibrary loan process</em> triggered by such external institutions.
+  </p>
+</div>
+
+
 
 
 
