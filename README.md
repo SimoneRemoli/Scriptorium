@@ -553,6 +553,81 @@ This section illustrates the logical schema of the system by presenting represen
   </tbody>
 </table>
 
+<br>
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+  <thead style="background-color: #D0E3FA;">
+    <tr>
+      <th style="text-align: center;">Shelf Number</th>
+      <th style="text-align: center;">Shelf Code</th>
+      <th style="text-align: center;">ISBN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>1</td><td>1</td><td>978-0000000001</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>2</td><td>1</td><td>978-0000000002</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>3</td><td>1</td><td>978-0000000003</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>4</td><td>1</td><td>978-0000000011</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>5</td><td>1</td><td>978-0000000012</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>6</td><td>1</td><td>978-0000000013</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>7</td><td>1</td><td>978-0000000101</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>8</td><td>1</td><td>978-0000000102</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>9</td><td>1</td><td>978-0000000103</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>10</td><td>1</td><td>978-0000000107</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>11</td><td>1</td><td>978-0000000108</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>12</td><td>1</td><td>978-0000000201</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>13</td><td>1</td><td>978-0000000202</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>14</td><td>1</td><td>978-0000000203</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>15</td><td>1</td><td>978-0000000205</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>1</td><td>2</td><td>978-0000000004</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>2</td><td>2</td><td>978-0000000008</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>3</td><td>2</td><td>978-0000000014</td>
+    </tr>
+    <tr style="background-color: #f9f9f9; text-align: center;">
+      <td>4</td><td>2</td><td>978-0000000104</td>
+    </tr>
+    <tr style="background-color: #ffffff; text-align: center;">
+      <td>5</td><td>2</td><td>978-0000000110</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 
