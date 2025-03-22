@@ -6,7 +6,9 @@
   Scriptorium
   <img src="https://github.com/user-attachments/assets/757db61e-2042-473a-95a8-c6c2fc870a2f" width="30px"/>
 </h1>
-Scriptorium is a Database Systems project dedicated to managing a library.Just as ancient scriptoria preserved and organized knowledge, this information system archives, manages, and optimizes access to books and bibliographic data in a modern and efficient way. 
+<p> align="center"
+Scriptorium is a Database Systems project dedicated to managing a library. Just as ancient scriptoria preserved and organized knowledge, this information system archives, manages, and optimizes access to books and bibliographic data in a modern and efficient way. 
+</p>
 <blockquote>
   Scriptorium is inspired by the ancient scriptoria where knowledge was meticulously preserved, catalogued, and made accessible.
 </blockquote>
