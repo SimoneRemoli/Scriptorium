@@ -334,9 +334,8 @@ Sample workflows, interface screenshots, and code snippets may be provided to de
   </tbody>
 </table>
     
-    <br>
     
-    <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: sans-serif;">
   <thead style="background-color: #D0E3FA;">
     <tr>
       <th style="text-align: center;">Copy Number</th>
