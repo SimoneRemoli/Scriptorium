@@ -71,7 +71,7 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Logical Schema</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -194,10 +194,9 @@ The technologies listed below constitute the foundational stack employed in the 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Logical Schema
 
-The following section illustrates practical examples of how the system may be utilized in real-world scenarios.
-Sample workflows, interface screenshots, and code snippets may be provided to demonstrate core functionalities and typical use cases.
+This section illustrates the logical schema of the system by presenting representative subsets of the database tables used in its implementation.
 
 <div style="display: flex; justify-content: flex-start; gap: 40px; align-items: flex-start;">
 
