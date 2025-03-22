@@ -49,8 +49,8 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/user-attachments/assets/85461217-bc57-4664-b7b7-08affee891c9)" alt="Logo" width="80" height="80">
+  <a href="https://ing.uniroma2.it">
+    <img src="https://github.com/user-attachments/assets/85461217-bc57-4664-b7b7-08affee891c9" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
