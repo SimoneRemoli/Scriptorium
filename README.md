@@ -100,7 +100,7 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
 <img src="https://github.com/user-attachments/assets/782918b1-8fec-46cc-a392-d0c4f37fdbac" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-## 📘 Project Overview
+ 📘 Project Overview
 
 A library provides a book reservation service for its registered users.  
 This project aims to develop an **Information Management System** for such a library, which is characterized by:
