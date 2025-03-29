@@ -62,6 +62,7 @@ public class RiceviLibroDAO
             cs.executeQuery();
             System.out.println("Libro prenotato");
         } catch (SQLException e) {
+            System.err.println(e.getSQLState()+e.getMessage());
             throw new RuntimeException(e);
         }
 

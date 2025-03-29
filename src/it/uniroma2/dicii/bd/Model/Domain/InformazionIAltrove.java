@@ -5,16 +5,17 @@ public class InformazionIAltrove
     private String ISBN;
     private String titolo;
     private int disponibilita;
-    private String citta;
-    private String nome_biblioteca;
 
-    public InformazionIAltrove(String i, String t, int d, String c, String n)
+    private String nome_biblioteca;
+    private String citta;
+
+    public InformazionIAltrove(String i, String t, int d, String n, String c)
     {
         this.ISBN = i;
         this.titolo = t;
         this.disponibilita = d;
-        this.citta = c;
         this.nome_biblioteca = n;
+        this.citta = c;
     }
 
     public String getTitolo() {
