@@ -35,7 +35,7 @@ public class InformazioniPossessoDAO
                             do {
                                 System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                                 System.out.println("Numero copia:" + rs.getInt(1) + "\t Nome:" + rs.getString(2) + "\t Cognome:" + rs.getString(3) + "\t Titolo:" + rs.getString(4) + "\t Data di nascita:" + rs.getDate(5) + "\t Isbn:" + rs.getString(6) +
-                                        "\t Numero di telefono:" + rs.getString(7) + "\t Tipologia contatto preferita:" + rs.getString(8));
+                                        "\t Contatto:" + rs.getString(7) + "\t Tipologia contatto preferita:" + rs.getString(8));
                                 System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                             } while (rs.next());
                         }

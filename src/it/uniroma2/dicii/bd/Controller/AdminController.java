@@ -41,7 +41,8 @@ public class AdminController {
                 case 5 -> new Bibliotecario(null,null,null).validate();
                 case 6 -> new Bibliotecario(null,null,null).visualizza_personale();
                 case 7 -> new Admin(null,null,null).visualizza_personale();
-                case 8 -> fine();
+                case 8 -> new Admin(null,null,null).elimina_fisicamente_libro();
+                case 9 -> fine();
 
             }
 
