@@ -20,12 +20,24 @@ public class EliminaFisicamenteBookDAO
 
         }catch(SQLException e)
         {
-            if(e.getSQLState().equals("45988"))
-            {
-                System.out.println("Il libro "+nome_libro+" non è stato eliminato.\n");
+            System.out.println("Errore SQLSTATE: " + e.getSQLState());
+            System.out.println("Messaggio: " + e.getMessage());
+
+            if (e.getSQLState().equals("45988")) {
+                System.out.println("Errore: libro non eliminabile per vincoli del trigger");
                 throw new RuntimeException(e);
+            } else if (e.getSQLState().equals("45888")) {
+                System.out.println("Rollback: Il libro non può essere eliminato attualmente [*]");
+                System.err.println("Una copia di questo libro è in prestito! !");
+            } else {
+                throw new DAOException("Errore generico", e);
             }
         }
     }
 
 }
+
+/*Il trigger ha bloccato l'eliminazione questo ha generato una SQLEXCEPTION
+che è stata catturata dal mio EXIT HANDLER nella procedura
+che ha rilanciato un nuovo SIGNAL con SQLSTATE '45888'
+*/

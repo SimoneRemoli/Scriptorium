@@ -48,7 +48,7 @@ public class AggiungiPersonaleGenericDAO
             }
             else {
                 if (e.getSQLState().equals("45001")) {
-                    System.out.println("Non esiste nessuna persona nel DB.");
+                    System.out.println("Non esiste nessuna persona nel DB."); //Si presume che qualcuno debba esistere
                 }
                 else {
                     System.out.println("\n \t Spiacente: la password è già stata utilizzata. Riprova inserendo una chiave diversa [*]. \n");

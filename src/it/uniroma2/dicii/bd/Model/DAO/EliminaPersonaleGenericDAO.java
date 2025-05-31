@@ -38,9 +38,9 @@ public class EliminaPersonaleGenericDAO
         {
             if(e.getSQLState().equals("45002"))
             {
-                System.err.println("Non esiste nessun bibliotecario con nome " + nome + " e cognome " + cognome);
+                System.err.println("Non esiste nessun " + accesso + " con nome " + nome + " e cognome " + cognome + "!");
             }
-            throw new DAOException("Errore : " + e.getSQLState() + " " +  e.getMessage());
+            //throw new DAOException("Errore : " + e.getSQLState() + " " +  e.getMessage());
         }
     }
 }
