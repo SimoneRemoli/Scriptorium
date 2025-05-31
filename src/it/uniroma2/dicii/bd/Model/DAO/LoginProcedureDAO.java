@@ -79,6 +79,7 @@ public class LoginProcedureDAO implements GenericProcedureDAO<Credentials> {
         }
 
 
+
         return new Credentials(id,nome,cognome, password, Ruolo.fromint(role));
     }
 }
