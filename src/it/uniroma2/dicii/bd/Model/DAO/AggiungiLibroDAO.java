@@ -7,12 +7,14 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class AggiungiLibroDAO
 {
     public void Execute(Object... params) throws DAOException
     {
+        boolean controllo = true;
         Scanner tastiera = new Scanner(System.in);
         String titolo="", isbn="",nome_scaffale="";
         int indice = 0;
@@ -32,10 +34,19 @@ public class AggiungiLibroDAO
         try{
 
             new MostraCategorieDAO().Execute();
+            controllo = true;
 
             Connection conn = ConnectionFactory.getConnection();
-            System.out.println("Inserisci la categoria da attribuire al libro: ");
-            categoria = tastiera.nextInt();
+            while(controllo) {
+                try {
+                    System.out.println("Inserisci il codice della categoria da attribuire al libro: ");
+                    categoria = tastiera.nextInt();
+                    controllo = false;
+                } catch (InputMismatchException e) {
+                    System.err.println("Errore: il codice è un campo numerico. Riprova.");
+                    tastiera.next();
+                }
+            }
             CallableStatement cs = conn.prepareCall("{call aggiungi_libro(?,?,?)}");
             cs.setString(1,titolo);
             cs.setString(2,isbn);
@@ -69,13 +80,13 @@ public class AggiungiLibroDAO
 
         }catch(SQLException e)
         {
-            if(e.getMessage().equals("45012"))
+            if(e.getSQLState().equals("45012"))
             {
-                System.out.println("Categoria inesistente.");
+                System.err.println("Categoria inesistente.");
             }
-            if(e.getMessage().equals("45013"))
+            if(e.getSQLState().equals("45013"))
             {
-                System.out.println("Libro già esistente.");
+                System.err.println("Libro già esistente.");
             }
             throw new RuntimeException(e);
         }

@@ -12,18 +12,21 @@ public class MostraCategorieDAO
     public void Execute(Object... params) throws DAOException
     {
         try{
-
+            int i = 0;
             Connection conn = ConnectionFactory.getConnection();
             CallableStatement cs = conn.prepareCall("{call mostra_categorie()}");
             ResultSet rs = cs.executeQuery();
             while(rs.next())
             {
-                System.out.println("Codice categoria:  "+rs.getInt(1)+" \t  Nome:   "+rs.getString(2)+ " \n");
+                System.out.println(i++ +" ) " + "Codice categoria:  "+rs.getInt(1)+" \t  Nome:   "+rs.getString(2)+ " \n");
             }
         }catch(SQLException e)
         {
-            throw new RuntimeException(e);
+            if(e.getSQLState().equals("45099"))
+            {
+                System.err.println(e.getMessage());
+            }
+            //throw new RuntimeException(e);
         }
     }
-
 }

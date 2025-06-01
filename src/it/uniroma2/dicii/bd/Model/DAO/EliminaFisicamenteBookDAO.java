@@ -22,7 +22,7 @@ public class EliminaFisicamenteBookDAO
         {
             System.err.println("\n \t Errore nell'eliminazione!");
             System.out.println("\t Errore SQLSTATE: " + e.getSQLState());
-            System.out.println("\t Messaggio: " + e.getMessage());
+            System.out.println("\t Messaggio: " + e.getMessage() + "\n \n");
 
             if (e.getSQLState().equals("45988")) {
                 System.out.println("\t Bloccato dal trigger: " + e.getMessage()+ "\n\n");
