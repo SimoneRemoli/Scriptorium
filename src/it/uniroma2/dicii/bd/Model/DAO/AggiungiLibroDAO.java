@@ -1,7 +1,5 @@
 package it.uniroma2.dicii.bd.Model.DAO;
-
 import it.uniroma2.dicii.bd.Exception.DAOException;
-
 import java.io.IOException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -97,13 +95,6 @@ public class AggiungiLibroDAO
         System.out.println("Attualmente ci sono "+copie_attualmente_disponibili_book+" copie disponibili nel magazzino del libro appena aggiunto.");
         System.out.println("------------------------------------------------------------------------");
         new RegistraLibroECopiaDAO().Execute(isbn,titolo, codice_scaffale, categoria);
-
-
-
-
-
-
-//la funzione deve mostrare anche tutte le categorie con la relativa descrizione.
 
     }
 }
