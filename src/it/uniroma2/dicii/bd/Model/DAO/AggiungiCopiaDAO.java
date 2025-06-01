@@ -21,6 +21,7 @@ public class AggiungiCopiaDAO
             CallableStatement cs = conn.prepareCall("{call Aggiungi_Copia(?)}");
             cs.setString(1,nome_libro);
             cs.executeQuery();
+            System.out.println("\n \t \t Copia del libro aggiunta correttamente!\n \n ");
         }catch(SQLException e)
         {
             if(e.getSQLState().equals("45010"))
@@ -29,6 +30,5 @@ public class AggiungiCopiaDAO
             }
             //throw new RuntimeException(e);
         }
-
     }
 }
