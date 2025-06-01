@@ -45,36 +45,11 @@ public class AdminController {
                 case 9 -> fine();
 
             }
-
-
-
-
         }
-    }
-
-    public void controlla_validità_libri() {
-    }
-
-    public void elimina_bibliotecario() {
-    }
-
-    public void aggiungi_bibliotecario() {
-    }
-
-    public void elimina_amministratore() {
-    }
-
-    public void aggiungi_amministratore()
-    {
-
-
-
-
-
-
     }
     public void fine()
     {
-
+        System.out.println("\n \n \t Programma terminato con successo. ");
+        System.exit(0);
     }
 }
