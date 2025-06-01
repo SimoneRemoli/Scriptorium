@@ -30,8 +30,6 @@ public class EffettuaRiconsegnaDAO
             cs.setInt(6,colonne);
             cs.setString(7, nome_biblio);
             cs.setString(8,city);
-
-
             cs.executeQuery();
             if(colonne==5)
                 System.out.println("La copia " + numero_copia + " è stata riconsegnata. \n");
@@ -46,6 +44,5 @@ public class EffettuaRiconsegnaDAO
             }
             throw new RuntimeException(e);
         }
-
     }
 }

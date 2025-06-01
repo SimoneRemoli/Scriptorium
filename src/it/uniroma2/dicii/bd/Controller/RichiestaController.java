@@ -84,7 +84,6 @@ public class RichiestaController
                 System.err.println(e.getMessage()+e.getCause());
                 throw new RuntimeException(e);
             }
-
         }
         else
         {
@@ -148,6 +147,5 @@ public class RichiestaController
                 }
             }
         }
-
     }
 }
