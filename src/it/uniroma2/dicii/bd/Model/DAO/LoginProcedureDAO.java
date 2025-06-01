@@ -16,25 +16,14 @@ public class LoginProcedureDAO implements GenericProcedureDAO<Credentials> {
         int id = (int) params[0];
         String password = (String) params[1],nome="",cognome="";
         int role=0;
-//permessi sulla tabella?
         try {
             Connection conn = ConnectionFactory.getConnection();
             CallableStatement cs = conn.prepareCall("{call BNCR.login_iniziale(?,?)}");
             cs.setInt(1, id);
             cs.setString(2, password);
-           // cs.registerOutParameter(3, Types.NUMERIC);
+           // cs.registerOutParameter(3, Types.NUMERIC); non ho usato parametri di output nel progetto (scelta consapevole)
             boolean hasMoreResults = cs.execute();
             int rescount = 0;
-
-
-          /* while(rs.next())
-            {
-                role = rs.getInt("Ruolo");
-                System.out.println("Ruolo = "+role);
-            }
-            */
-
-           // role = cs.getInt(3);
 
             while(hasMoreResults)
             {
@@ -48,7 +37,6 @@ public class LoginProcedureDAO implements GenericProcedureDAO<Credentials> {
                         {
                             nome = rs.getString(1);
                             cognome = rs.getString(2);
-                            //System.out.println("Nome: " + nome + ", Cognome: " + cognome);
                         }
                     }
                     if(rescount==2)
@@ -56,18 +44,11 @@ public class LoginProcedureDAO implements GenericProcedureDAO<Credentials> {
                         while(rs.next())
                         {
                             role = rs.getInt("Ruolo");
-                            //System.out.println("Ruolo = " + role);
                         }
                     }
-
-
-
                 }
                 hasMoreResults = cs.getMoreResults();
-
             }
-
-
 
         } catch(SQLException e) {
             System.err.println("Errore SQL dettagliato:");
@@ -75,11 +56,7 @@ public class LoginProcedureDAO implements GenericProcedureDAO<Credentials> {
             System.err.println("Codice errore: " + e.getErrorCode());
             System.err.println("Messaggio: " + e.getMessage());
             throw new DAOException("Login error: " + e.getMessage());
-
         }
-
-
-
         return new Credentials(id,nome,cognome, password, Ruolo.fromint(role));
     }
 }

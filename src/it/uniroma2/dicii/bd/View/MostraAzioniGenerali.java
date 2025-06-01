@@ -8,10 +8,10 @@ public class MostraAzioniGenerali
     {
         int scelta;
         Scanner tastiera = new Scanner(System.in);
-        System.out.println("\n Benvenuto nella piattaforma Scriptorium.");
-        System.out.println("\n 1. Login.");
-        System.out.println("\n 2. Richiedi libro.");
-        System.out.println("\n 3. Riconsegna il libro.");
+        System.out.println("\n \t Benvenuto nella piattaforma Scriptorium.");
+        System.out.println("\n \t 1. Login.");
+        System.out.println("\n \t 2. Richiedi libro.");
+        System.out.println("\n \t 3. Riconsegna il libro.");
         System.out.println("\n > > ");
         scelta = tastiera.nextInt();
         return scelta;
