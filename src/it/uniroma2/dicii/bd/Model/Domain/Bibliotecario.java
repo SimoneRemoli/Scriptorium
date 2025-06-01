@@ -3,12 +3,8 @@ package it.uniroma2.dicii.bd.Model.Domain;
 import it.uniroma2.dicii.bd.Exception.DAOException;
 import it.uniroma2.dicii.bd.Model.DAO.*;
 
-import java.util.Scanner;
-
 public class Bibliotecario extends Personale
 {
-
-
     public Bibliotecario(String nome, String cognome, String password) {
         super(nome, cognome, password);
     }

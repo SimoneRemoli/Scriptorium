@@ -44,7 +44,6 @@ public class BibliotecarioController {
                 case 6 -> fine();
 
             }
-
         }
     }
     public void fine()

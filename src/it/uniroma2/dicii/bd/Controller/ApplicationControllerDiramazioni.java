@@ -6,7 +6,6 @@ import it.uniroma2.dicii.bd.View.MostraAzioniGenerali;
 
 public class ApplicationControllerDiramazioni
 {
-
     public void start() throws DAOException {
        int choice = MostraAzioniGenerali.show_menu();
        switch(choice)
@@ -16,9 +15,5 @@ public class ApplicationControllerDiramazioni
            case 3 -> new RiconsegnaController().start();
 
        }
-
-
-
-
     }
 }
