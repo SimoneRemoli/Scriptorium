@@ -73,9 +73,8 @@ public class RichiestaController
             do {
                 System.out.println("\t Per quanto vuoi tenerlo in consultazione: 1. Un mese, 2. Due mesi, 3. Tre mesi. ");
                 fine_prestito = tastiera.nextInt();
+                if(fine_prestito!=1 && fine_prestito!=2 && fine_prestito!=3) System.err.println("1, 2 o 3 sono i valori validi.");
             }while(fine_prestito!=1 && fine_prestito!=2 && fine_prestito!=3);
-
-
 
             try
             {
@@ -138,6 +137,7 @@ public class RichiestaController
                 do {
                     System.out.println("\t Per quanto vuoi tenerlo in consultazione: 1. Un mese, 2. Due mesi, 3. Tre mesi. ");
                     fine_prestito = tastiera.nextInt();
+                    if(fine_prestito!=1 && fine_prestito!=2 && fine_prestito!=3) System.err.println("1, 2 o 3 sono i valori validi.");
                 }while(fine_prestito!=1 && fine_prestito!=2 && fine_prestito!=3);
 
                 try {

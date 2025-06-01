@@ -41,18 +41,15 @@ public class BibliotecarioController {
                 case 3 -> new Bibliotecario(null,null,null).report();
                 case 4 -> new Bibliotecario(null,null,null).aggiungi_copia();
                 case 5 -> new Bibliotecario(null,null,null).aggiungi_libro_nuovo_con_una_copia();
+                case 6 -> fine();
 
             }
 
         }
-
-
-
-
-
-
-
-
-
+    }
+    public void fine()
+    {
+        System.out.println("\n \n \t Programma terminato con successo. ");
+        System.exit(0);
     }
 }

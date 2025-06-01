@@ -38,7 +38,8 @@ public class ControllaCircuitoBiblioDAO
         {
             if(e.getSQLState().equals("45078"))
             {
-                System.out.println("Non esiste in nessuna biblioteca convenzionata la copia");
+                System.out.println("La copia non è presente in nessuna biblioteca convenzionata.\n");
+                System.err.println(e.getMessage());
             }
         }
 
