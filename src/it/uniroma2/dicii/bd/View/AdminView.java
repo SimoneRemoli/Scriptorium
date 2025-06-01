@@ -18,7 +18,7 @@ public class AdminView
                 "biblioteca.");
         System.out.println("\t 6. Visualizza i bibliotecari attualmente registrati nel circuito.");
         System.out.println("\t 7. Visualizza gli amministratori attualmente registrati nel circuito.");
-        System.out.println("\t 8. Elimina fisicamente un libro dal circuito totalmente");
+        System.out.println("\t 8. Elimina un libro dal circuito totalmente.");
         System.out.println("\t 9. Esci.");
         System.out.println("> > ");
         int scelta = tastiera.nextInt();

@@ -13,8 +13,8 @@ public class BibliotecarioView
         System.out.println("\t 1. Visualizza tutti i bibliotecari del circuito. ");
         System.out.println("\t 2. Informazioni sugli utenti che possiedono la copia di un determinato libro. ");
         System.out.println("\t 3. Report disposizioni complete solo dei libri disponibili.");
-        System.out.println("\t 4. Aggiungi una nuova copia di un libro esistente e non dismesso");
-        System.out.println("\t 5. Aggiungi un nuovo libro (si presume che venga generata almeno una copia)");
+        System.out.println("\t 4. Aggiungi una nuova copia di un libro esistente e non dismesso.");
+        System.out.println("\t 5. Aggiungi un nuovo libro (si presume che venga generata almeno una copia).");
         System.out.println("> > ");
         choice = tastiera.nextInt();
         return choice;

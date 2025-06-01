@@ -8,7 +8,7 @@ public class RichiediLibroView
     public static String richiedi_nome_libro() throws IOException
     {
         Scanner tastiera = new Scanner(System.in);
-        System.out.println("Inserisci il nome del libro da richiedere: ");
+        System.out.println("Inserisci il nome del libro: ");
         String nome_libro = tastiera.nextLine();
         return nome_libro;
     }

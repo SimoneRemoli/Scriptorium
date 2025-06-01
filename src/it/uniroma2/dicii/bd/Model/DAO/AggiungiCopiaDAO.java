@@ -25,9 +25,9 @@ public class AggiungiCopiaDAO
         {
             if(e.getSQLState().equals("45010"))
             {
-                System.out.println("Il libro non esiste, figuriamoci se posso aggiungere una copia");
+                System.err.println(e.getMessage());
             }
-            throw new RuntimeException(e);
+            //throw new RuntimeException(e);
         }
 
     }
