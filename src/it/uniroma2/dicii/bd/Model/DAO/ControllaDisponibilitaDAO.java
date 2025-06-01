@@ -8,14 +8,12 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ControllaDisponibilitaDAO
 {
     public Map.Entry<String, Integer> Execute(Object... params) throws DAOException
     {
-        Scanner tastiera = new Scanner(System.in);
         String disponibilita = (String) params[0];
         String nome_libro = (String) params[1];
         String isbn="";
@@ -49,10 +47,8 @@ public class ControllaDisponibilitaDAO
             System.err.println(e.getMessage() + e.getSQLState());
             if(e.getSQLState().equals("45004")) {
                 System.out.println("Copia non disponibile attualmente nel database interno della biblioteca.\n");
-                //numero_disponibilità = new ControllaCircuitoBiblioDAO().Execute(nome_libro);
 
             }
-            //throw new RuntimeException(e);
         }
         if((numero_disponibilità>0)&&(isbn!=""))
         {System.out.println("\t Il libro è disponibile, copie disponibili = "+numero_disponibilità+"."); System.out.println("\t ISBN:"+isbn);}

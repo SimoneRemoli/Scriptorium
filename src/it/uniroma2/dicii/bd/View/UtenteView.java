@@ -47,7 +47,10 @@ public class UtenteView {
         while(true) {
             try{
                 System.out.println("Inserisci la data di nascita (formato dd/MM/yyyy): ");
-                data = tastiera.nextLine();
+                data = tastiera.nextLine().trim();
+                if (data.isEmpty()) {
+                    throw new IllegalArgumentException("La data non può essere vuota.");
+                }
                 LocalDate.parse(data, DateTimeFormatter.ISO_LOCAL_DATE);
                 break;
             }catch (DateTimeParseException e)
