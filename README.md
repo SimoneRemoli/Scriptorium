@@ -58,7 +58,7 @@ Scriptorium is a Database Systems project dedicated to managing a library. <br> 
   <p align="center">
     Bridging medieval wisdom and digital knowledge.
     <br />
-    <a href="https://github.com/SimoneRemoli/Scriptorium"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SimoneRemoli/Scriptorium/blob/main/Relazione_Ufficiale_2025.pdf"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
